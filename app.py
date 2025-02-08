@@ -597,10 +597,16 @@ def download_report(company_name, campaign_id):
     report_filename = f"{company_name}_{campaign_id}_report.xlsx"
     report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
 
+    # ✅ Debugging Log
+    print(f"📁 Checking for report file: {report_path}")
+
+    # ✅ Check if file exists before downloading
     if not os.path.exists(report_path):
+        print(f"❌ Report file not found: {report_filename}")
         flash("Report file not found. Please try again later.", "danger")
         return redirect(url_for('user_dashboard'))
 
+    print(f"✅ Report file found! Sending to user: {report_filename}")
     return send_from_directory(app.config['UPLOAD_FOLDER'], report_filename, as_attachment=True)
 
         
