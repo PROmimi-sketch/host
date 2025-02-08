@@ -594,6 +594,9 @@ def download_report(company_name, campaign_id):
         flash("Unauthorized access to report!", "danger")
         return redirect(url_for('user_dashboard'))
 
+    # ✅ Ensure the report is generated before downloading
+    view_report()
+
     report_filename = f"{company_name}_{campaign_id}_report.xlsx"
     report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
 
@@ -609,9 +612,6 @@ def download_report(company_name, campaign_id):
     print(f"✅ Report file found! Sending to user: {report_filename}")
     return send_from_directory(app.config['UPLOAD_FOLDER'], report_filename, as_attachment=True)
 
-        
-        
-        
 @app.route('/logout')
 def logout():
     session.pop('user', None)
