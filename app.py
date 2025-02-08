@@ -291,8 +291,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
             
            
-
-     @app.route('/run_campaign/<int:campaign_id>', methods=['POST'])
+@app.route('/run_campaign/<int:campaign_id>', methods=['POST'])
 def run_campaign(campaign_id):
     print(f"🚀 Run Campaign Triggered for ID: {campaign_id}")
 
@@ -402,13 +401,12 @@ def run_campaign(campaign_id):
 def send_email(to_email, subject, body):
     try:
         EMAIL = 'ramlakman98@gmail.com'
-        PASSWORD = 'gzdv ston ffoj btae'  # ✅ Ensure this is correct
+        PASSWORD = 'gzdv ston ffoj btae'  # ✅ Make sure this is correct
         SMTP_SERVER = "smtp.gmail.com"
         SMTP_PORT = 587
 
         print(f"🔌 Connecting to SMTP server: {SMTP_SERVER}:{SMTP_PORT}")
 
-        # Establish a new connection for each email
         server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
         server.starttls()
         print(f"🔑 Attempting to log in with email: {EMAIL}")
@@ -422,7 +420,7 @@ def send_email(to_email, subject, body):
         msg.attach(MIMEText(body, 'html'))
         
         server.sendmail(EMAIL, to_email, msg.as_string())
-        server.quit()  # Close the connection after sending the email
+        server.quit()
 
         print(f"✅ Email successfully sent to {to_email}")
     except smtplib.SMTPAuthenticationError as auth_err:
@@ -433,7 +431,6 @@ def send_email(to_email, subject, body):
         print(f"❌ SMTP Recipient Refused: {rec_err}")
     except Exception as e:
         print(f"❌ General Error: {e}")
-
 
 # ✅ Loggly API Configuration
 LOGGLY_API_URL = "https://nithin3131.loggly.com/apiv2/events/iterate?q=*&from=-48H&until=now&size=100"
