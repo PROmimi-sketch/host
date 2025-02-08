@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishSim360</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://i.postimg.cc/6pwsjLNp/website-background-image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 119, 182, 0.9);
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align content to the left */
+            margin-top: 60px;
+            text-align: left; /* Align text to the left */
+            max-width: 600px;
+            padding-left: 30px; /* Move content to the right */
+        }
+
+        .main-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .main-content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #0c0101;
+        }
+
+        .main-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #0077b6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button-container button:hover {
+            background-color: #005f87;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PhishSim360</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Research</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h1>Welcome to PhishSim360</h1>
+        <h2>Your Gateway to Phishing Awareness</h2>
+        <p>
+            At PhishSim360, we empower individuals and organizations to combat phishing threats 
+            through cutting-edge simulations and educational tools. Join us to make the internet a safer place!
+        </p>
+        <div class="button-container">
+            <button onclick="window.location.href='/login';">Login</button>
+        </div>
+    </div>
+</body>
+</html>

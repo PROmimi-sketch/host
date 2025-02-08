@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for a Campaign</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #e3f2fd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            background-color: #1976D2;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        input, button, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #1976D2;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0D47A1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Register for a Campaign</h1>
+    <form action="/register-campaign" method="post" enctype="multipart/form-data">
+        <label for="company_name">Company Name:</label>
+        <input type="text" id="company_name" name="company_name" required>
+
+        <label for="date">Campaign Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="category">Select Category:</label>
+        <select id="category" name="category" required>
+            <option value="">Select a Category</option>
+            <option value="Banking">Banking</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="Retail">Retail</option>
+            <option value="Technology">Technology</option>
+        </select>
+
+        <label for="csvFile">Upload CSV File:</label>
+        <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Campaigns</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .run-btn {
+            background-color: #28a745;
+            color: white;
+        }
+        .run-btn:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        .run-btn:hover:not(:disabled) {
+            background-color: #218838;
+        }
+        .csv-btn {
+            background-color: #ffc107;
+            color: black;
+        }
+        .csv-btn:hover {
+            background-color: #e0a800;
+        }
+        .report-btn {
+            background-color: #007BFF;
+            color: white;
+        }
+        .report-btn:hover {
+            background-color: #0056b3;
+        }
+        .danger-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+        .danger-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registered Campaigns</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Campaign Date</th>
+                <th>CSV File</th>
+                <th>Uploaded On</th>
+                <th>Run Campaign</th>
+                <th>View Report</th>  <!-- ✅ New Column for Reports -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for campaign in campaigns %}
+            <tr>
+                <td>{{ campaign.company_name }}</td>
+                <td>{{ campaign.campaign_date }}</td>
+                <td>
+                    <a href="{{ url_for('download_csv', filename=campaign.filename) }}">
+                        <button class="csv-btn">📥 Download CSV</button>
+                    </a>
+                </td>
+                <td>{{ campaign.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                <td>
+                    <form action="{{ url_for('run_campaign', campaign_id=campaign.id) }}" method="post">
+                        <button type="submit" class="run-btn" {% if campaign.is_run %} disabled {% endif %}>
+                            {% if campaign.is_run %}
+                                ✅ Completed
+                            {% else %}
+                                🚀 Run Campaign
+                            {% endif %}
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    {% if campaign.is_run %}
+                    <a href="{{ url_for('admin_view_report', company_name=campaign.company_name, campaign_id=campaign.id) }}">
+                        <button class="report-btn">📊 View Report</button>
+                    </a>
+                    {% else %}
+                    <button disabled>⏳ Awaiting Completion</button>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="/admin_dashboard"><button class="danger-btn">⬅️ Back to Admin Dashboard</button></a>
+    </div>
+</body>
+</html>

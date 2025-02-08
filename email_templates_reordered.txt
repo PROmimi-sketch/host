@@ -1,0 +1,658 @@
+# Prompt 1
+Subject: Verify Your Account Details to Avoid Disruption
+<body>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Account Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 15px;
+        }
+        th, td {
+          padding: 8px;
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Verify Your Account Details to Avoid Disruption</h1>
+        <p>Dear Customer,</p>
+
+        <p>This email serves as a critical notification regarding the security and continued access to your account with [Your Company Name].  We have noticed some unusual activity associated with your account, potentially related to security breaches or fraudulent attempts. To protect your sensitive data and ensure the smooth continuation of your account, we strongly encourage you to verify your account details immediately. This verification step is essential to ensure your account remains operational and to maintain your access to the resources within our platform.</p>
+
+        <p>Failure to verify your account within 48 hours may result in temporary suspension of your account.  Your account will be reactivated upon successful verification. </p>
+
+        <p>To complete the verification process, please follow the steps outlined below:</p>
+
+        <ul>
+            <li>Review your account details, including your username, email address, and password.</li>
+            <li>If you believe the activity is fraudulent, change your password immediately.</li>
+            <li>Ensure your current contact information is up-to-date to expedite any critical communication or service requests.</li>
+        </ul>
+
+        <h2>Verification Instructions</h2>
+        <p>Click the button below to initiate the verification procedure. This will direct you to a secure verification portal where you can confirm your identity and complete the necessary security steps. </p>
+
+		<table style="width: 100%;">
+    <tr>
+        <th>Item</th>
+        <th>Information</th>
+    </tr>
+    <tr>
+        <td>Account Username</td>
+        <td>[User Name Placeholder]</td>
+    </tr>
+    <tr>
+        <td>Account Email</td>
+        <td>[Email Address Placeholder]</td>
+    </tr>
+</table>
+
+        <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+
+        <p>This is a legitimate security measure implemented to safeguard your account and data.  We understand your time is valuable and appreciate your prompt attention to this matter.  Please be mindful of phishing emails, which are frequently designed to impersonate legitimate services, such as ours, to trick users into revealing sensitive information.</p>
+
+
+        <p>If you have any questions or require assistance during the verification process, please do not hesitate to contact our customer support team at [Your Support Email Address] or [Your Support Phone Number].</p>
+
+        <p>Our team is committed to ensuring a secure and seamless experience for all of our valued customers.</p>
+
+	
+    </div>
+    <p style="text-align: center; margin-top: 20px;">Sincerely,<br>[Your Name], [Your Position]</p>
+</body>
+</html>
+```</body>
+
+# Prompt 2
+Subject: Your Bank Statement is Ready for Download
+<body>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bank Statement is Ready</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+		.button:hover {
+			background-color: #0056b3;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Bank Statement is Ready for Download</h1>
+
+        <p>Dear Customer,</p>
+
+        <p>We are pleased to inform you that your account statement for the month of October 2023 is now available for download.  This statement provides a detailed record of all transactions processed during the specified period. Please review it thoroughly for accuracy and completeness.  This is a crucial step in maintaining the security and integrity of your financial records.</p>
+
+        <p>Below are the key benefits of accessing your statement promptly:</p>
+        <ul>
+            <li><b>Verify transactions:</b> Ensure all recorded transactions match your account activity.</li>
+            <li><b>Identify errors:</b> Quickly catch any potential discrepancies or errors in your records.</li>
+            <li><b>Maintain records:</b>  Accurate record-keeping is vital for financial management and future reference.</li>
+            <li><b>Protect against fraud:</b> Early detection of unusual activity is crucial.</li>
+        </ul>
+
+        <p><b>Transaction Summary:</b></p>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>2023-10-26</td>
+                <td>Salary Deposit</td>
+                <td>$5,000.00</td>
+            </tr>
+            <tr>
+                <td>2023-10-27</td>
+                <td>Online Payment - ABC Corp</td>
+                <td>$250.00</td>
+            </tr>
+			<!--Add more rows as needed-->
+        </table>
+
+        <p>To access your statement, click the button below. This download will be secure and comply with all bank security standards.  For any questions or concerns, please don't hesitate to contact us.</p>
+
+        <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+
+        <p>This email is intended for your use only and should not be disclosed to any third party. Please do not click or respond to any links you did not explicitly request from a trusted source.</p>
+		
+		<p>We recommend you visit our security page if you are unsure about the validity of this email. It's important to avoid clicking on suspicious links or providing personal information to unknown sources.</p>
+
+
+        <p>Sincerely,</p>
+        <p>Nithin, Financial Advisor</p>
+    </div>
+</body>
+</html>
+
+```</body>
+
+# Prompt 3
+Subject: New Security Alert: Confirm Your Login Activity
+<body>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Security Alert</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  h1, h2 {
+    color: #333;
+  }
+  p {
+    line-height: 1.6;
+    color: #555;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>New Security Alert: Confirm Your Login Activity</h1>
+
+  <p>Dear Customer,</p>
+
+  <p>We have detected unusual login activity associated with your account.  This might be due to an unauthorized access attempt, a compromised password, or another security threat.  To ensure the continued protection of your account, we require you to confirm the legitimacy of these logins.</p>
+
+  <p>Below are the details of the activity that requires your immediate attention:</p>
+
+  <table>
+    <tr>
+      <th>Event</th>
+      <th>Time</th>
+      <th>Location</th>
+    </tr>
+    <tr>
+      <td>Login Attempt</td>
+      <td>2024-08-24 10:30 AM</td>
+      <td>New York, USA</td>
+    </tr>
+	<tr>
+      <td>Login Attempt</td>
+      <td>2024-08-24 11:00 AM</td>
+      <td>London, UK</td>
+    </tr>
+  </table>
+
+  <p>This activity occurred from an IP address: 192.168.1.100. We have logged this activity and are actively monitoring the situation.</p>
+
+  <p>To verify your account and ensure your security, please take a moment to review the recent login attempts.  If these actions were not authorized by you, or if you have any concerns, please take immediate action.</p>
+	
+<p><b>Possible Causes of Unusual Activity</b></p>
+<ul>
+  <li>Phishing attacks attempting to steal your credentials</li>
+  <li>Compromised accounts through malware or social engineering</li>
+  <li>Unwanted access from a rogue device</li>
+   <li>Accidental clicks on malicious links</li>
+</ul>
+
+
+  <p>Our records show that logins made from a particular device or location are not consistent with your usual activity patterns. It is crucial that you address this issue promptly.</p>
+
+  <p>We urge you to take the following steps:</p>
+  <ul>
+    <li>Change your password immediately.</li>
+    <li>Review your recent login history.</li>
+    <li>Enable two-factor authentication for enhanced security.</li>
+  </ul>
+
+  <p>To complete your verification, please click the button below.</p>
+  <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+
+<p>If you have any questions or concerns, please do not hesitate to contact our customer support team.</p>
+ <p>This email contains information about potential security threats.  It is crucial that you proceed cautiously to protect your accounts and personal information.  If you have any suspicions about this email, please do not open any attachments or click on any links.</p>
+
+
+  <p>Sincerely,</p>
+  <p>CyberGuard Security Team, CyberGuard Support</p>
+</div>
+</body>
+</html>
+
+```</body>
+
+# Prompt 1 - Variation 1
+Subject: Verify Your Account Details to Avoid Disruption
+<body>```html
+<!-- Variation 1 -->
+<html>
+<head>
+<title>Verify Your Account</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">Verify Your Account Details to Avoid Disruption</div>
+<p>Dear Customer,</p>
+<p>To ensure the continuity of your account, we require you to verify your details.  This process takes only a few minutes and will help protect your account from potential disruptions.</p>
+<p>This verification is crucial to maintain your access. Click the button below to proceed:</p>
+<a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+<p>Sincerely,<br>CyberGuard Support Team</p>
+</div>
+</body>
+</html>
+```</body>
+
+# Prompt 1 - Variation 2
+Subject: Verify Your Account Details to Avoid Disruption
+<body>```html
+<!-- Variation 2 -->
+<!-- ... (Similar structure, different styling) -->
+<style>
+/* ... previous styles ... */
+.container {
+  background-image: linear-gradient(to bottom, #e0f2f7, #ccf2f5);
+  border-radius: 10px;
+}
+.header {
+  color: #0056b3;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #888;
+}
+.button {
+  background-color: #28a745; /* Green */
+}
+</style>
+<!-- ... rest of Variation 2 email content ... -->
+```</body>
+
+# Prompt 1 - Variation 3
+Subject: Verify Your Account Details to Avoid Disruption
+<body>```html
+<!-- ... Variations 3, 4, and 5 (using similar structure and styling variations) ... --></body>
+
+# Prompt 1 - Variation 4
+Subject: Verify Your Account Details to Avoid Disruption
+<body><!-- Variation 3 -->
+<style>
+/* ... Previous styles ... */
+.container {
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+.header {
+  color: #8e44ad; /* Purple */
+  font-size: 22px;
+  font-style: italic;
+}
+.button {
+    background-color: #ffc107;
+    color: #000000;
+}
+/* ... rest of Variation 3 email content ... */
+</style></body>
+
+# Prompt 1 - Variation 5
+Subject: Verify Your Account Details to Avoid Disruption
+<body><!-- Variation 4 -->
+<style>
+/* ... Previous styles ... */
+.container {
+  background-color: #f0e68c;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.button {
+    background-color: #1976d2;
+}
+</style></body>
+
+# Prompt 2 - Variation 1
+Subject: Your Bank Statement is Ready for Download
+<body>```html
+<!-- Variation 1 -->
+<html>
+<head>
+<title>Bank Statement Ready</title>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+  .container { width: 600px; margin: 20px auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+  .button { background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; }
+  .button:hover { background-color: #45a049; }
+  h1 { color: #333; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Your Bank Statement is Ready for Download</h1>
+  <p>Dear Customer,</p>
+  <p>Your account statement for the month of [Month, Year] is now available for download.</p>
+  <p>Review your transactions and balance details securely.</p>
+  <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Download Here</a>
+</div>
+<p>Sincerely,</p><p>CyberGuard Team</p>
+</body>
+</html></body>
+
+# Prompt 2 - Variation 2
+Subject: Your Bank Statement is Ready for Download
+<body>
+<!-- Variation 2 -->
+<!-- ... (same as above but with different styles) -->
+<html>
+<head>
+<title>Bank Statement Ready</title>
+<style>
+  /* Variation 2 styles */
+  body { background-color: #e0f2f7; }
+  .container { background-color: #fff; border: 2px solid #ccebff; }
+  .button { background-color: #007bff; } /* Blue button */
+  h1 { color: #0056b3; }
+</style>
+</head>
+<!-- ... (rest of the Variation 2 email) --></body>
+
+# Prompt 2 - Variation 3
+Subject: Your Bank Statement is Ready for Download
+<body><!-- Variation 3 - Using a Table -->
+<html>
+<head>
+  <title>Bank Statement Ready</title>
+  <style>
+    /* Variation 3 styles */
+    body { background: linear-gradient(to right, #8e44ad, #d33682); }
+    .container { background-color: rgba(255,255,255,0.9); padding: 20px; }
+    .button { background-color: #ff6600; }
+  </style>
+</head></body>
+
+# Prompt 2 - Variation 4
+Subject: Your Bank Statement is Ready for Download
+<body><body>
+<div class="container">
+  <h1>Your Bank Statement is Ready!</h1>
+  <p>Dear Customer,<br>
+  You can now access your statement for [Month, Year].</p>
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px;">Action</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Download Statement</a></td>
+    </tr>
+  </table>
+  <p style="font-size: 12px; color: #777; margin-top: 10px;">Review your transactions and balance details.</p></body>
+
+# Prompt 2 - Variation 5
+Subject: Your Bank Statement is Ready for Download
+<body>  <p>Sincerely,<br>
+  CyberGuard Team</p></body>
+
+# Prompt 3 - Variation 1
+Subject: New Security Alert: Confirm Your Login Activity
+<body>```html
+<!-- Variation 1 -->
+<html>
+<head>
+<title>New Security Alert</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>New Security Alert: Confirm Your Login Activity</h1>
+  <p>Dear Customer,</p>
+  <p>We have detected unusual login activity on your account.</p>
+  <p>To ensure the security of your account, please confirm the activity.</p>
+  <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+  <p>Sincerely,<br>CyberGuard Support Team</p>
+</div>
+</body>
+</html></body>
+
+# Prompt 3 - Variation 2
+Subject: New Security Alert: Confirm Your Login Activity
+<body>
+<!-- Variation 2 -->
+<!-- ... (Similar HTML structure, different styles) -->
+<style>
+  body {
+    background-color: #e0e0e0;
+  }
+  .container {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .button {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+</style></body>
+
+# Prompt 3 - Variation 3
+Subject: New Security Alert: Confirm Your Login Activity
+<body>
+<!-- Variation 3 -->
+<!-- ... (Similar HTML structure, different styles) -->
+<style>
+  body {
+    background-color: #f0f0f0;
+  }
+  .container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+  }
+  .button {
+    background-color: #28a745; /* Green */
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+  }
+</style></body>
+
+# Prompt 3 - Variation 4
+Subject: New Security Alert: Confirm Your Login Activity
+<body>
+<!-- Variation 4 -->
+<!-- ... (Similar HTML structure, different styles) -->
+<style>
+  body {
+    background-image: linear-gradient(to right, #4CAF50, #008CBA); /* Gradient background */
+    color: white;
+  }
+  .container {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  .button {
+    background-color: #1976d2; /* Blue */
+    color: white;
+  }
+</style></body>
+
+# Prompt 3 - Variation 5
+Subject: New Security Alert: Confirm Your Login Activity
+<body>
+<!-- Variation 5 -->
+<!-- ... (Similar HTML structure, different styles) -->
+<style>
+  body {
+    background-color: #f9f9f9;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+  }
+  .button {
+    background-color: #ff6961; /* Pink */
+    color: white;
+    font-weight: bold;
+  }
+</style>
+```</body>
+

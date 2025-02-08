@@ -1,0 +1,4424 @@
+Category,Email Body
+Banking,"const templates = {
+           
+            bank: {
+                ""Temp1"": `
+         <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Account Validation</title>
+</head>
+<body>
+    <div style=""font-family: Arial, sans-serif; margin: 20px;"">
+        <h2>Account Validation</h2>
+        <p>services@icicbank.co.in</p>
+        <p>To: me</p>
+        
+        <div style=""border: 1px solid #ccc; padding: 20px;"">
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Bank Logo"" style=""width: 100px;"">
+            <h3>ICIC Bank</h3>
+<p>Subject: Routine Account Verification</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We hope this email finds you well. As part of our regular banking operations, we are conducting a scheduled verification of account details to ensure our records are accurate and up-to-date.</p>
+
+<p>To confirm your account details securely, please follow these steps:</p>
+<ol>
+    <li>Log in to your NetBanking account via the official ICIC Bank website: 
+        <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.icicbank.com &gt;&gt;</strong></a></p>
+           
+       
+    </li>
+    <li>Navigate to the ""Account Verification"" section under ""Profile Settings"".</li>
+    <li>Review and update your details if necessary.</li>
+</ol>
+
+<p>Please note that this verification process helps us maintain the security and integrity of your account and prevent unauthorized access.</p>
+
+<p>If you have any questions or need assistance, please do not hesitate to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> customercare@icicbank.com</li>
+    <li><strong>Phone:</strong> 1-800-102-4242 (Toll-Free)</li>
+</ul>
+
+
+<p>Thank you for choosing ICICI Bank. We appreciate your continued trust in us for your financial needs.</p>
+
+<p>Best regards,</p>
+<p>ICICI NetBanking Team</p>
+<p>Hum Hai Na. Make ICICI Bank your Only Choice.</p>
+
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Footer"" style=""width: 100px;"">
+        </div>
+       
+        <img src=""https://i.ibb.co/Yjkmk4J/Screenshot-2024-12-03-144843.png"" alt=""Norton Secured"" style=""width: 100px;"">
+    </div>
+</body>
+</html>
+
+
+
+`,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>USU Bank Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .content {
+            text-align: left;
+        }
+        .content p {
+            color: #333;
+            line-height: 1.5;
+        }
+        .content .note {
+            color: red;
+            font-weight: bold;
+        }
+        .content .important {
+            color: blue;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/KmXqbM4/Screenshot-2024-12-17-150114.png"" alt=""US Bank Logo"">
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Explore Our New Digital Banking Features</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We’re excited to introduce the latest updates to our online banking platform. These enhancements are designed to provide you with a more convenient and secure way to manage your finances.</p>
+
+<p><strong>What’s New:</strong></p>
+<ul>
+    <li>Improved user interface for a seamless banking experience.</li>
+    <li>Enhanced security features to protect your account.</li>
+    <li>New tools to track and manage your spending.</li>
+</ul>
+
+<p>To explore these features, log in to your online banking account through our official website:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.usubank.com &gt;&gt;</strong></a></p>
+            
+<hr>
+
+<p><strong>Important:</strong></p>
+<p>These updates will not impact your account access. USU Bank will never request sensitive information such as your password, PIN, or OTP through email or phone. Always ensure you log in only through our official website or app.</p>
+
+<p>If you have any questions or need assistance, please contact our customer service team:</p>
+<ul>
+    <li><strong>Email:</strong> support@usbank.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for choosing USU Bank. We’re committed to providing you with the best banking experience.</p>
+
+<p>Best regards,</p>
+<p>The US Bank Team</p>
+
+<p style=""font-size: 12px; color: gray;"">&copy; 2024 US Bank. All Rights Reserved.</p>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+      `,
+      ""Temp3"": `
+        
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>HDDFC Bank API Portal Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            height: 50px;
+            width: 200px; /* Fixed width */
+            margin-right: 10px;
+        }
+        .header h2 {
+            margin: 0;
+            color: #808080; /* Grey color */
+            width: 180px; /* Adjusted width */
+            text-align: center;
+        }
+        .content p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .content a.button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/v1TnT58/Screenshot-2024-12-17-155759.png"" alt=""HDFC Bank Logo"">
+            <h2>OPENBANKING</h2>
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Notification of Scheduled Maintenance</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We would like to inform you about scheduled maintenance for our online banking services. This maintenance will take place on:</p>
+<ul>
+    
+</ul>
+
+<p>During this time, certain functionalities, such as account updates and transaction history, may be temporarily unavailable. We apologize for any inconvenience this may cause and appreciate your understanding.</p>
+
+<p><strong>Important:</strong> There is no action required on your part. However, if you would like to review or update your account details, please log in securely via our official website:</p>
+<p>click the  link to update here <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a> or copy and paste it into your browser.</p>
+            
+<p>For your security, please ensure you access your account only through our official website or mobile app. Never share your password, PIN, or OTP with anyone.</p>
+
+<p>If you have any questions or need assistance, our customer support team is here to help:</p>
+<ul>
+    <li><strong>Email:</strong> support@HDFC.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for banking with us. We are committed to providing you with the best service possible.</p>
+
+<p>Best regards,</p>
+<p>The HDFC Team</p>
+<p style=""font-size: 12px; color: gray;"">&copy; HDFC bank. All Rights Reserved.</p>
+
+            
+          
+        </div>
+        <div class=""footer"">
+            <p>Regards,<br>-- HDDFC Bank API Portal</p>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+`
+            },
+            
+ 
+
+            
+            delivery: {
+                ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Flipkart Refund Email</title>
+    <style>
+        .email-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fpCQvMD/Screenshot-2024-12-17-144631.png
+"" alt=""Flipkart Logo"" style=""width: 600px;"">
+        </div>
+        <div class=""content"">
+            <p>Hi {{customerName}},</p>
+            <p>Order ID: OD428257007863727100</p>
+            <p>Product Name: Supreme Bison Six Seater Dining Table, Wenge Plastic Outdoor Table.</p>
+            <p>We are sorry for the trouble which has been caused. We understand that this is not what you expected, we don't want our customers to go through this.</p>
+            <p>We'd like to confirm that the seller has refunded Rs. 6350 to your Flipkart Axis Bank Credit card on 11 June 23 and this amount should have been credited to your account by 16 June 23 with the reference number: 32663238.</p>
+            <p>You may contact your bank's customer care using the number mentioned on the back of your card in case you need further assistance.</p>
+<p>you can click the and proceed <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a>.</p>
+            <p>As an alternative, you can also visit your bank to submit the 'Chargeback form' to get an update on your refund.</p>
+            <p>Krishna, we would love to hear from you. Please share your valuable feedback about the support provided by completing the email survey you'll get shortly.</p>
+            <p>Thank you for being with Flifkart.</p>
+            <p>Thanks,<br>Meet Thakkar<br>Flifkart Customer Support</p>
+        </div>
+        <div class=""footer"">
+            <p>Your Query (2023-06-16 20:57:14)</p>
+            <p>Refund immediately</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        `,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Amazon Account Locked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #ff9900;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: left;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #888;
+        }
+        .footer img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .footer a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+        </div>
+        <div class=""content"">
+            <p>Greetings from Zamazon,</p>
+            <p>We have locked yourZamazon account and all pending orders.</p>
+            <p>We have taken this action because the billing information you provided does not match the information on file with the card issuer.</p>
+            <p>To resolve this issue, please verify now with the billing name, address, and phone number stored on your credit card. If you have recently moved, you may need to update this information with the card issuer.</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" class=""button"">Check Now</a>
+            <p>If we cannot complete the verification process within 3 days, all pending orders will be canceled. You will not be able to access your account until this process is complete.</p>
+            <p>We ask that you do not open new accounts as any new order you place may be delayed.</p>
+            <p>We appreciate your patience with our security measures. Thank you for your attention.</p>
+            <p>Best regards,<br>Zmazon Service Team</p>
+        </div>
+        <div class=""footer"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+            <p>&copy; 2025 , Inc. or its affiliates. All rights reserved. Zamazon,  
+            <p>Reference: <a href=""#"">874507091</a></p>
+        </div>
+    </div>
+</body>
+</html>`,
+
+       
+    ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>PREEZ E-commerce Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: #007BFF;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .cta a:hover {
+            background: #0056b3;
+        }
+        .footer {
+            background: #f9f9f9;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <!-- Header Section -->
+        <div class=""header"">
+            <img src=""https://i.ibb.co/mXS7sbS/Screenshot-2024-12-19-091928.png"" alt=""PREEZ Logo"">
+            <h1>Welcome to PREEZ</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+            <p>Thank you for shopping with PREEZ! We're excited to have you as part of our community. Your recent purchase has been confirmed, and we are preparing it for shipment.</p>
+            <p>Here are the details of your order:</p>
+            <ul>
+                <li><strong>Order Number:</strong> PZ123456789</li>
+                <li><strong>Order Date:</strong> [Order Date]</li>
+                <li><strong>Items:</strong> [List of Items]</li>
+            </ul>
+            <p>We will notify you once your order is on its way. You can track your order status anytime using the link below:</p>
+            <div class=""cta"">
+                <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Track My Order</a>
+            </div>
+            <p>If you have any questions, feel free to reach out to our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">support@preez-ecommerce.com</a>.</p>
+            <p>Happy shopping!</p>
+            <p>Warm regards,</p>
+            <p>The PREEZ Team</p>
+        </div>
+
+        <!-- Footer Section -->
+        <div class=""footer"">
+            <p>&copy; 2024 PREEZ E-commerce. All rights reserved.</p>
+            <p>123 PREEZ Lane, Shopping City, SC 12345</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            },
+            lottery: {
+             ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Mega Millions Draw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .email {
+            color: green;
+            font-weight: bold;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Mega Millions Logo"">
+        </div>
+         <p>Dear {{customerName}}, </p>
+            <p>We are excited to invite you to participate in the upcoming Mega Millions draw. This is a unique opportunity to win amazing prizes and change your life forever!</p>
+            <p>To participate, please visit our website and register using your email address. Once registered, you will receive a confirmation email with your ticket number and additional details.</p>
+            <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none;"">Click here to register now!</a></p>
+            <p>If you have any questions or need assistance, feel free to contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.Mega Millions.com</strong></a></p>
+            <p>Good luck!</p>
+            
+        <p><span class=""highlight"">MEGA MILLIONS DRAW.</span><br>
+        UNITED STATES.<br>
+        
+<ul>
+    <li><strong>Email:</strong> support@megamillions.com</li>
+    <li><strong>Phone:</strong> 1-800-MEGADRAW</li>
+</ul>
+
+<p>Thank you for participating, and we look forward to celebrating your success!</p>
+
+<p>Sincerely,<br>The Mega Millions Team</p>
+
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">&copy; 2024 Mega-Millions.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Mega-Millions.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+ 
+
+`,
+        ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Winning Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .email {
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        .warning {
+            color: #d9534f;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <!-- Replace the URL with the original IRL lottery icon image URL -->
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+        </div>
+        
+<p>Dear {{customerName}},</p>
+<p>We are thrilled to inform you that your ticket number <strong>123456789</strong> has been drawn as the winning ticket in the <strong>World's Lottery Mega Jackpot</strong>.</p>
+
+<p>Your prize amount is <span style=""color: #d9534f; font-weight: bold;"">$1,000,000.00</span> (One Million Dollars).</p>
+
+<p>To claim your prize, please contact our claims department by visiting the link below:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #5cb85c; text-decoration: none; font-weight: bold;"">Claim Your Prize &gt;&gt;</a></p>
+
+<p><strong>Alternatively, you may send the following details to our claims department:</strong></p>
+<ul>
+    <li>Your Full Name</li>
+    <li>Your Address</li>
+    <li>Your Winning Ticket Number</li>
+</ul>
+<p>Send these details via email to: <strong><a href= cstyle=""color: #0275d8; text-decoration: none;"">claims@worldslottery.com</a></strong></p>
+
+<p><strong>Note:</strong> Once your claim is verified, you will receive an official notification from our prize department.</p>
+
+<p style=""font-style: italic;"">Thank you for participating, and congratulations on your success!</p>
+
+<p style=""color: #5cb85c; font-weight: bold;"">Good Luck!</p>
+<p>Sincerely,<br>The World's Lottery Team</p>
+
+        
+            <hr>
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Worlds-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": worldslottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+        ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Participation Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <!-- Replace the URL with your lottery logo image URL -->
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+            <h1>Welcome to the Casino Lottery!</h1>
+        </div>
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+<p>We are thrilled to invite you to participate in the upcoming <strong>Casino Lottery Draw</strong>. This is your chance to win incredible prizes and make your dreams come true!</p>
+
+<p>To enter the draw, simply visit our website and register using your email address. Once registered, you will receive a confirmation email containing your ticket number and further details.</p>
+
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none; font-weight: bold;"">Click here to register now!</a></p>
+
+<p>If you have any questions or require assistance, please feel free to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> support@casinolottery.com</li>
+    <li><strong>Phone:</strong> 1-800-CASINO (1-800-227-466)</li>
+</ul>
+
+<p>We wish you the best of luck!</p>
+
+<p>Best regards,<br>The Casino Lottery Team</p>
+<p style=""font-size: 12px; color: #999;"">&copy; 2024 Casino Lottery. All rights reserved.</p>
+
+        </div>
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Casion-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Casino-Lottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            } ,
+            Insurance: {
+                
+                ""Temp1"": 
+                 `
+                <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Benefits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .benefits-list {
+            margin-top: 20px;
+        }
+        .benefits-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/r3BjQY1/Screenshot-2024-12-18-231010.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to PEOPLE insurance company</h1>
+            <p>Dear user,</p>
+            <p>Thank you for choosing PEOPLE Insurance! We’re excited to have the opportunity to provide you with top-notch insurance services tailored to meet your needs. Here’s what you can look forward to with our policies:</p>
+            <ul class=""benefits-list"">
+                <li><strong>Comprehensive Coverage:</strong>  Safeguard your home, vehicle, and personal belongings with our wide-ranging protection.</li>
+                <li><strong>Affordable Premiums:</strong>Enjoy competitive rates designed to fit your budget.</li>
+                <li><strong>24/7 Customer Support:</strong>  Our dedicated team is available any time to assist with questions or claims.</li>
+                <li><strong>Fast and Easy Claims Process:</strong> Simplified steps to ensure timely support when you need it.</li>
+                <li><strong>Flexible Payment Options:</strong> Choose from a variety of plans that align with your preferences.</li>
+                <li><strong>Discounts and Rewards:</strong> Benefit from special perks for loyalty, safe driving, and more.</li>
+            </ul>
+            <p>Should you have any questions or need additional information, please don’t hesitate to contact us at support@peopleinsurancecompany.com or visit our website at <a href=""https://nithin1207v.github.io/phishing-awareness/"">peopleinsurancecompany.com</a>.</p>
+            <p>We look forward to serving you and providing peace of mind for the things that matter most to you.</p>
+            <p>Sincerely,<br>
+            PEOPLE Insurance Team</p>
+        </div>
+        <div class=""footer"">
+            <p>&copy; 2024 PEOPLE Insurance. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+                ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/RvwZwrS/Screenshot-2024-12-18-230153.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to LICC insurance company</h1>
+            <p>Dear User,</p>
+            <p>Thank you for choosing LICC Insurance for your coverage needs. We are delighted to have you as part of our valued community. Our commitment is to provide you with exceptional service and comprehensive insurance solutions tailored to your needs.</p>
+            <p>To explore your policy details or manage your account, please click the link below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button""> Access your Account now</a>
+            <p>If you have any questions or need assistance, please do not hesitate to contact our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/"">liccinsurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            LICC Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 LICC All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+
+
+
+
+
+                 ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Renewal Notice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/LRPX3Rp/Screenshot-2024-12-18-225752.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Insurance Renewal Reminder</h1>
+            <p> Reminder: Your Insurance Policy Renewal
+                Dear [Name],</p>
+            <p>We hope this message finds you well. This is a reminder that your insurance policy with SOFFIA Insurance is scheduled for renewal on [Renewal Date].</p>
+            <p>To conveniently renew your policy and continue enjoying our services, please click the button below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button"">Renew Now</a>
+            <p>IIf you have any questions, please contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/"">soffia@insurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            SOFFIA Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 SOFFIA. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`
+
+
+            }
+        };
+        
+        
+        $(document).ready(function() {
+            // Add recipient
+            $('#addRecipient').click(function() {
+                const newRow = `
+                    <div class=""recipient-row"">
+                        <input type=""email"" class=""recipient-email"" placeholder=""recipient@example.com"" required>
+                        <button type=""button"" class=""remove-btn"">×</button>
+                    </div>
+                `;
+                $('#recipientsList').append(newRow);
+                updateRemoveButtons();
+            });
+
+            // Remove recipient
+            $(document).on('click', '.remove-btn', function() {
+                $(this).closest('.recipient-row').remove();
+                updateRemoveButtons();
+            });
+
+            // Update remove buttons visibility
+            function updateRemoveButtons() {
+                const rows = $('.recipient-row');
+                if (rows.length === 1) {
+                    rows.find('.remove-btn').hide();
+                } else {
+                    $('.remove-btn').show();
+                }
+            }
+
+            // Populate subcategories based on category
+            $('#category').change(function() {
+                const category = $(this).val();
+                const subcategoryDropdown = $('#subcategory');
+                subcategoryDropdown.empty();
+                subcategoryDropdown.append('<option value="""">Select a Subcategory</option>');
+                if (templates[category]) {
+                    Object.keys(templates[category]).forEach(sub => {
+                        subcategoryDropdown.append(`<option value=""${sub}"">${sub}</option>`);
+                    });
+                }
+                $('#message').val(''); // Clear message on category change
+            });
+
+            // Update message based on subcategory
+            $('#subcategory').change(function() {
+                const category = $('#category').val();
+        const subcategory = $(this).val();
+        let messageTemplate = templates[category]?.[subcategory] || '';
+
+        // Replace {{customerName}} with recipient email prefix
+        const recipientEmail = $('.recipient-email').first().val();
+        if (recipientEmail) {
+            const emailPrefix = recipientEmail.split('@')[0];
+            messageTemplate = messageTemplate.replace(/{{customerName}}/g, emailPrefix);
+        }
+
+        $('#message').val(messageTemplate);
+                
+            });
+
+            // Handle form submission
+            $('#emailForm').submit(function(e) {
+                e.preventDefault();
+
+                const recipients = [];
+                $('.recipient-email').each(function() {
+                    const email = $(this).val().trim();
+                    if (email) {
+                        recipients.push({ email: email });
+                    }
+                });
+
+                const data = {
+                    recipients: recipients,
+                    subject: $('#subject').val(),
+                    text: $('#message').val()
+                };
+
+                // Send email
+                $.ajax({
+                    url: '/api/send',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(response) {
+                        $('#statusMessage').removeClass('error').addClass('success')
+                            .html(`Success! Sent to ${response.successful.length} recipients.`);
+                        if (response.failed.length) {
+                            $('#statusMessage').append(`<br>Failed to send to ${response.failed.length} recipients.`);
+                        }
+                    },
+                    error: function(xhr) {
+                        const message = xhr.responseJSON?.message || 'Error sending emails. Please try again.';
+                        $('#statusMessage').removeClass('success').addClass('error')
+                            .text(message);
+                    }
+                });
+            });
+        });"
+Delivery,Delivery
+Delivery,"const templates = {
+           
+            bank: {
+                ""Temp1"": `
+         <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Account Validation</title>
+</head>
+<body>
+    <div style=""font-family: Arial, sans-serif; margin: 20px;"">
+        <h2>Account Validation</h2>
+        <p>services@icicbank.co.in</p>
+        <p>To: me</p>
+        
+        <div style=""border: 1px solid #ccc; padding: 20px;"">
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Bank Logo"" style=""width: 100px;"">
+            <h3>ICIC Bank</h3>
+<p>Subject: Routine Account Verification</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We hope this email finds you well. As part of our regular banking operations, we are conducting a scheduled verification of account details to ensure our records are accurate and up-to-date.</p>
+
+<p>To confirm your account details securely, please follow these steps:</p>
+<ol>
+    <li>Log in to your NetBanking account via the official ICIC Bank website: 
+        <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.icicbank.com &gt;&gt;</strong></a></p>
+           
+       
+    </li>
+    <li>Navigate to the ""Account Verification"" section under ""Profile Settings"".</li>
+    <li>Review and update your details if necessary.</li>
+</ol>
+
+<p>Please note that this verification process helps us maintain the security and integrity of your account and prevent unauthorized access.</p>
+
+<p>If you have any questions or need assistance, please do not hesitate to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> customercare@icicbank.com</li>
+    <li><strong>Phone:</strong> 1-800-102-4242 (Toll-Free)</li>
+</ul>
+
+
+<p>Thank you for choosing ICICI Bank. We appreciate your continued trust in us for your financial needs.</p>
+
+<p>Best regards,</p>
+<p>ICICI NetBanking Team</p>
+<p>Hum Hai Na. Make ICICI Bank your Only Choice.</p>
+
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Footer"" style=""width: 100px;"">
+        </div>
+       
+        <img src=""https://i.ibb.co/Yjkmk4J/Screenshot-2024-12-03-144843.png"" alt=""Norton Secured"" style=""width: 100px;"">
+    </div>
+</body>
+</html>
+
+
+
+`,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>USU Bank Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .content {
+            text-align: left;
+        }
+        .content p {
+            color: #333;
+            line-height: 1.5;
+        }
+        .content .note {
+            color: red;
+            font-weight: bold;
+        }
+        .content .important {
+            color: blue;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/KmXqbM4/Screenshot-2024-12-17-150114.png"" alt=""US Bank Logo"">
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Explore Our New Digital Banking Features</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We’re excited to introduce the latest updates to our online banking platform. These enhancements are designed to provide you with a more convenient and secure way to manage your finances.</p>
+
+<p><strong>What’s New:</strong></p>
+<ul>
+    <li>Improved user interface for a seamless banking experience.</li>
+    <li>Enhanced security features to protect your account.</li>
+    <li>New tools to track and manage your spending.</li>
+</ul>
+
+<p>To explore these features, log in to your online banking account through our official website:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.usubank.com &gt;&gt;</strong></a></p>
+            
+<hr>
+
+<p><strong>Important:</strong></p>
+<p>These updates will not impact your account access. USU Bank will never request sensitive information such as your password, PIN, or OTP through email or phone. Always ensure you log in only through our official website or app.</p>
+
+<p>If you have any questions or need assistance, please contact our customer service team:</p>
+<ul>
+    <li><strong>Email:</strong> support@usbank.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for choosing USU Bank. We’re committed to providing you with the best banking experience.</p>
+
+<p>Best regards,</p>
+<p>The US Bank Team</p>
+
+<p style=""font-size: 12px; color: gray;"">&copy; 2024 US Bank. All Rights Reserved.</p>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+      `,
+      ""Temp3"": `
+        
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>HDDFC Bank API Portal Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            height: 50px;
+            width: 200px; /* Fixed width */
+            margin-right: 10px;
+        }
+        .header h2 {
+            margin: 0;
+            color: #808080; /* Grey color */
+            width: 180px; /* Adjusted width */
+            text-align: center;
+        }
+        .content p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .content a.button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/v1TnT58/Screenshot-2024-12-17-155759.png"" alt=""HDFC Bank Logo"">
+            <h2>OPENBANKING</h2>
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Notification of Scheduled Maintenance</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We would like to inform you about scheduled maintenance for our online banking services. This maintenance will take place on:</p>
+<ul>
+    
+</ul>
+
+<p>During this time, certain functionalities, such as account updates and transaction history, may be temporarily unavailable. We apologize for any inconvenience this may cause and appreciate your understanding.</p>
+
+<p><strong>Important:</strong> There is no action required on your part. However, if you would like to review or update your account details, please log in securely via our official website:</p>
+<p>click the  link to update here <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a> or copy and paste it into your browser.</p>
+            
+<p>For your security, please ensure you access your account only through our official website or mobile app. Never share your password, PIN, or OTP with anyone.</p>
+
+<p>If you have any questions or need assistance, our customer support team is here to help:</p>
+<ul>
+    <li><strong>Email:</strong> support@HDFC.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for banking with us. We are committed to providing you with the best service possible.</p>
+
+<p>Best regards,</p>
+<p>The HDFC Team</p>
+<p style=""font-size: 12px; color: gray;"">&copy; HDFC bank. All Rights Reserved.</p>
+
+            
+          
+        </div>
+        <div class=""footer"">
+            <p>Regards,<br>-- HDDFC Bank API Portal</p>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+`
+            },
+            
+ 
+
+            
+            delivery: {
+                ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Flipkart Refund Email</title>
+    <style>
+        .email-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fpCQvMD/Screenshot-2024-12-17-144631.png
+"" alt=""Flipkart Logo"" style=""width: 600px;"">
+        </div>
+        <div class=""content"">
+            <p>Hi {{customerName}},</p>
+            <p>Order ID: OD428257007863727100</p>
+            <p>Product Name: Supreme Bison Six Seater Dining Table, Wenge Plastic Outdoor Table.</p>
+            <p>We are sorry for the trouble which has been caused. We understand that this is not what you expected, we don't want our customers to go through this.</p>
+            <p>We'd like to confirm that the seller has refunded Rs. 6350 to your Flipkart Axis Bank Credit card on 11 June 23 and this amount should have been credited to your account by 16 June 23 with the reference number: 32663238.</p>
+            <p>You may contact your bank's customer care using the number mentioned on the back of your card in case you need further assistance.</p>
+<p>you can click the and proceed <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a>.</p>
+            <p>As an alternative, you can also visit your bank to submit the 'Chargeback form' to get an update on your refund.</p>
+            <p>Krishna, we would love to hear from you. Please share your valuable feedback about the support provided by completing the email survey you'll get shortly.</p>
+            <p>Thank you for being with Flifkart.</p>
+            <p>Thanks,<br>Meet Thakkar<br>Flifkart Customer Support</p>
+        </div>
+        <div class=""footer"">
+            <p>Your Query (2023-06-16 20:57:14)</p>
+            <p>Refund immediately</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        `,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Amazon Account Locked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #ff9900;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: left;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #888;
+        }
+        .footer img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .footer a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+        </div>
+        <div class=""content"">
+            <p>Greetings from Zamazon,</p>
+            <p>We have locked yourZamazon account and all pending orders.</p>
+            <p>We have taken this action because the billing information you provided does not match the information on file with the card issuer.</p>
+            <p>To resolve this issue, please verify now with the billing name, address, and phone number stored on your credit card. If you have recently moved, you may need to update this information with the card issuer.</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" class=""button"">Check Now</a>
+            <p>If we cannot complete the verification process within 3 days, all pending orders will be canceled. You will not be able to access your account until this process is complete.</p>
+            <p>We ask that you do not open new accounts as any new order you place may be delayed.</p>
+            <p>We appreciate your patience with our security measures. Thank you for your attention.</p>
+            <p>Best regards,<br>Zmazon Service Team</p>
+        </div>
+        <div class=""footer"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+            <p>&copy; 2025 , Inc. or its affiliates. All rights reserved. Zamazon,  
+            <p>Reference: <a href=""#"">874507091</a></p>
+        </div>
+    </div>
+</body>
+</html>`,
+
+       
+    ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>PREEZ E-commerce Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: #007BFF;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .cta a:hover {
+            background: #0056b3;
+        }
+        .footer {
+            background: #f9f9f9;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <!-- Header Section -->
+        <div class=""header"">
+            <img src=""https://i.ibb.co/mXS7sbS/Screenshot-2024-12-19-091928.png"" alt=""PREEZ Logo"">
+            <h1>Welcome to PREEZ</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+            <p>Thank you for shopping with PREEZ! We're excited to have you as part of our community. Your recent purchase has been confirmed, and we are preparing it for shipment.</p>
+            <p>Here are the details of your order:</p>
+            <ul>
+                <li><strong>Order Number:</strong> PZ123456789</li>
+                <li><strong>Order Date:</strong> [Order Date]</li>
+                <li><strong>Items:</strong> [List of Items]</li>
+            </ul>
+            <p>We will notify you once your order is on its way. You can track your order status anytime using the link below:</p>
+            <div class=""cta"">
+                <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Track My Order</a>
+            </div>
+            <p>If you have any questions, feel free to reach out to our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">support@preez-ecommerce.com</a>.</p>
+            <p>Happy shopping!</p>
+            <p>Warm regards,</p>
+            <p>The PREEZ Team</p>
+        </div>
+
+        <!-- Footer Section -->
+        <div class=""footer"">
+            <p>&copy; 2024 PREEZ E-commerce. All rights reserved.</p>
+            <p>123 PREEZ Lane, Shopping City, SC 12345</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            },
+            lottery: {
+             ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Mega Millions Draw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .email {
+            color: green;
+            font-weight: bold;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Mega Millions Logo"">
+        </div>
+         <p>Dear {{customerName}}, </p>
+            <p>We are excited to invite you to participate in the upcoming Mega Millions draw. This is a unique opportunity to win amazing prizes and change your life forever!</p>
+            <p>To participate, please visit our website and register using your email address. Once registered, you will receive a confirmation email with your ticket number and additional details.</p>
+            <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none;"">Click here to register now!</a></p>
+            <p>If you have any questions or need assistance, feel free to contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.Mega Millions.com</strong></a></p>
+            <p>Good luck!</p>
+            
+        <p><span class=""highlight"">MEGA MILLIONS DRAW.</span><br>
+        UNITED STATES.<br>
+        
+<ul>
+    <li><strong>Email:</strong> support@megamillions.com</li>
+    <li><strong>Phone:</strong> 1-800-MEGADRAW</li>
+</ul>
+
+<p>Thank you for participating, and we look forward to celebrating your success!</p>
+
+<p>Sincerely,<br>The Mega Millions Team</p>
+
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">&copy; 2024 Mega-Millions.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Mega-Millions.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+ 
+
+`,
+        ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Winning Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .email {
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        .warning {
+            color: #d9534f;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <!-- Replace the URL with the original IRL lottery icon image URL -->
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+        </div>
+        
+<p>Dear {{customerName}},</p>
+<p>We are thrilled to inform you that your ticket number <strong>123456789</strong> has been drawn as the winning ticket in the <strong>World's Lottery Mega Jackpot</strong>.</p>
+
+<p>Your prize amount is <span style=""color: #d9534f; font-weight: bold;"">$1,000,000.00</span> (One Million Dollars).</p>
+
+<p>To claim your prize, please contact our claims department by visiting the link below:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #5cb85c; text-decoration: none; font-weight: bold;"">Claim Your Prize &gt;&gt;</a></p>
+
+<p><strong>Alternatively, you may send the following details to our claims department:</strong></p>
+<ul>
+    <li>Your Full Name</li>
+    <li>Your Address</li>
+    <li>Your Winning Ticket Number</li>
+</ul>
+<p>Send these details via email to: <strong><a href= cstyle=""color: #0275d8; text-decoration: none;"">claims@worldslottery.com</a></strong></p>
+
+<p><strong>Note:</strong> Once your claim is verified, you will receive an official notification from our prize department.</p>
+
+<p style=""font-style: italic;"">Thank you for participating, and congratulations on your success!</p>
+
+<p style=""color: #5cb85c; font-weight: bold;"">Good Luck!</p>
+<p>Sincerely,<br>The World's Lottery Team</p>
+
+        
+            <hr>
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Worlds-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": worldslottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+        ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Participation Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <!-- Replace the URL with your lottery logo image URL -->
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+            <h1>Welcome to the Casino Lottery!</h1>
+        </div>
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+<p>We are thrilled to invite you to participate in the upcoming <strong>Casino Lottery Draw</strong>. This is your chance to win incredible prizes and make your dreams come true!</p>
+
+<p>To enter the draw, simply visit our website and register using your email address. Once registered, you will receive a confirmation email containing your ticket number and further details.</p>
+
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none; font-weight: bold;"">Click here to register now!</a></p>
+
+<p>If you have any questions or require assistance, please feel free to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> support@casinolottery.com</li>
+    <li><strong>Phone:</strong> 1-800-CASINO (1-800-227-466)</li>
+</ul>
+
+<p>We wish you the best of luck!</p>
+
+<p>Best regards,<br>The Casino Lottery Team</p>
+<p style=""font-size: 12px; color: #999;"">&copy; 2024 Casino Lottery. All rights reserved.</p>
+
+        </div>
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Casion-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Casino-Lottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            } ,
+            Insurance: {
+                
+                ""Temp1"": 
+                 `
+                <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Benefits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .benefits-list {
+            margin-top: 20px;
+        }
+        .benefits-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/r3BjQY1/Screenshot-2024-12-18-231010.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to PEOPLE insurance company</h1>
+            <p>Dear user,</p>
+            <p>Thank you for choosing PEOPLE Insurance! We’re excited to have the opportunity to provide you with top-notch insurance services tailored to meet your needs. Here’s what you can look forward to with our policies:</p>
+            <ul class=""benefits-list"">
+                <li><strong>Comprehensive Coverage:</strong>  Safeguard your home, vehicle, and personal belongings with our wide-ranging protection.</li>
+                <li><strong>Affordable Premiums:</strong>Enjoy competitive rates designed to fit your budget.</li>
+                <li><strong>24/7 Customer Support:</strong>  Our dedicated team is available any time to assist with questions or claims.</li>
+                <li><strong>Fast and Easy Claims Process:</strong> Simplified steps to ensure timely support when you need it.</li>
+                <li><strong>Flexible Payment Options:</strong> Choose from a variety of plans that align with your preferences.</li>
+                <li><strong>Discounts and Rewards:</strong> Benefit from special perks for loyalty, safe driving, and more.</li>
+            </ul>
+            <p>Should you have any questions or need additional information, please don’t hesitate to contact us at support@peopleinsurancecompany.com or visit our website at <a href=""https://nithin1207v.github.io/phishing-awareness/"">peopleinsurancecompany.com</a>.</p>
+            <p>We look forward to serving you and providing peace of mind for the things that matter most to you.</p>
+            <p>Sincerely,<br>
+            PEOPLE Insurance Team</p>
+        </div>
+        <div class=""footer"">
+            <p>&copy; 2024 PEOPLE Insurance. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+                ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/RvwZwrS/Screenshot-2024-12-18-230153.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to LICC insurance company</h1>
+            <p>Dear User,</p>
+            <p>Thank you for choosing LICC Insurance for your coverage needs. We are delighted to have you as part of our valued community. Our commitment is to provide you with exceptional service and comprehensive insurance solutions tailored to your needs.</p>
+            <p>To explore your policy details or manage your account, please click the link below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button""> Access your Account now</a>
+            <p>If you have any questions or need assistance, please do not hesitate to contact our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/"">liccinsurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            LICC Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 LICC All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+
+
+
+
+
+                 ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Renewal Notice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/LRPX3Rp/Screenshot-2024-12-18-225752.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Insurance Renewal Reminder</h1>
+            <p> Reminder: Your Insurance Policy Renewal
+                Dear [Name],</p>
+            <p>We hope this message finds you well. This is a reminder that your insurance policy with SOFFIA Insurance is scheduled for renewal on [Renewal Date].</p>
+            <p>To conveniently renew your policy and continue enjoying our services, please click the button below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button"">Renew Now</a>
+            <p>IIf you have any questions, please contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/"">soffia@insurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            SOFFIA Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 SOFFIA. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`
+
+
+            }
+        };
+        
+        
+        $(document).ready(function() {
+            // Add recipient
+            $('#addRecipient').click(function() {
+                const newRow = `
+                    <div class=""recipient-row"">
+                        <input type=""email"" class=""recipient-email"" placeholder=""recipient@example.com"" required>
+                        <button type=""button"" class=""remove-btn"">×</button>
+                    </div>
+                `;
+                $('#recipientsList').append(newRow);
+                updateRemoveButtons();
+            });
+
+            // Remove recipient
+            $(document).on('click', '.remove-btn', function() {
+                $(this).closest('.recipient-row').remove();
+                updateRemoveButtons();
+            });
+
+            // Update remove buttons visibility
+            function updateRemoveButtons() {
+                const rows = $('.recipient-row');
+                if (rows.length === 1) {
+                    rows.find('.remove-btn').hide();
+                } else {
+                    $('.remove-btn').show();
+                }
+            }
+
+            // Populate subcategories based on category
+            $('#category').change(function() {
+                const category = $(this).val();
+                const subcategoryDropdown = $('#subcategory');
+                subcategoryDropdown.empty();
+                subcategoryDropdown.append('<option value="""">Select a Subcategory</option>');
+                if (templates[category]) {
+                    Object.keys(templates[category]).forEach(sub => {
+                        subcategoryDropdown.append(`<option value=""${sub}"">${sub}</option>`);
+                    });
+                }
+                $('#message').val(''); // Clear message on category change
+            });
+
+            // Update message based on subcategory
+            $('#subcategory').change(function() {
+                const category = $('#category').val();
+        const subcategory = $(this).val();
+        let messageTemplate = templates[category]?.[subcategory] || '';
+
+        // Replace {{customerName}} with recipient email prefix
+        const recipientEmail = $('.recipient-email').first().val();
+        if (recipientEmail) {
+            const emailPrefix = recipientEmail.split('@')[0];
+            messageTemplate = messageTemplate.replace(/{{customerName}}/g, emailPrefix);
+        }
+
+        $('#message').val(messageTemplate);
+                
+            });
+
+            // Handle form submission
+            $('#emailForm').submit(function(e) {
+                e.preventDefault();
+
+                const recipients = [];
+                $('.recipient-email').each(function() {
+                    const email = $(this).val().trim();
+                    if (email) {
+                        recipients.push({ email: email });
+                    }
+                });
+
+                const data = {
+                    recipients: recipients,
+                    subject: $('#subject').val(),
+                    text: $('#message').val()
+                };
+
+                // Send email
+                $.ajax({
+                    url: '/api/send',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(response) {
+                        $('#statusMessage').removeClass('error').addClass('success')
+                            .html(`Success! Sent to ${response.successful.length} recipients.`);
+                        if (response.failed.length) {
+                            $('#statusMessage').append(`<br>Failed to send to ${response.failed.length} recipients.`);
+                        }
+                    },
+                    error: function(xhr) {
+                        const message = xhr.responseJSON?.message || 'Error sending emails. Please try again.';
+                        $('#statusMessage').removeClass('success').addClass('error')
+                            .text(message);
+                    }
+                });
+            });
+        });"
+Lottery,Lottery
+Lottery,"const templates = {
+           
+            bank: {
+                ""Temp1"": `
+         <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Account Validation</title>
+</head>
+<body>
+    <div style=""font-family: Arial, sans-serif; margin: 20px;"">
+        <h2>Account Validation</h2>
+        <p>services@icicbank.co.in</p>
+        <p>To: me</p>
+        
+        <div style=""border: 1px solid #ccc; padding: 20px;"">
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Bank Logo"" style=""width: 100px;"">
+            <h3>ICIC Bank</h3>
+<p>Subject: Routine Account Verification</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We hope this email finds you well. As part of our regular banking operations, we are conducting a scheduled verification of account details to ensure our records are accurate and up-to-date.</p>
+
+<p>To confirm your account details securely, please follow these steps:</p>
+<ol>
+    <li>Log in to your NetBanking account via the official ICIC Bank website: 
+        <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.icicbank.com &gt;&gt;</strong></a></p>
+           
+       
+    </li>
+    <li>Navigate to the ""Account Verification"" section under ""Profile Settings"".</li>
+    <li>Review and update your details if necessary.</li>
+</ol>
+
+<p>Please note that this verification process helps us maintain the security and integrity of your account and prevent unauthorized access.</p>
+
+<p>If you have any questions or need assistance, please do not hesitate to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> customercare@icicbank.com</li>
+    <li><strong>Phone:</strong> 1-800-102-4242 (Toll-Free)</li>
+</ul>
+
+
+<p>Thank you for choosing ICICI Bank. We appreciate your continued trust in us for your financial needs.</p>
+
+<p>Best regards,</p>
+<p>ICICI NetBanking Team</p>
+<p>Hum Hai Na. Make ICICI Bank your Only Choice.</p>
+
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Footer"" style=""width: 100px;"">
+        </div>
+       
+        <img src=""https://i.ibb.co/Yjkmk4J/Screenshot-2024-12-03-144843.png"" alt=""Norton Secured"" style=""width: 100px;"">
+    </div>
+</body>
+</html>
+
+
+
+`,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>USU Bank Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .content {
+            text-align: left;
+        }
+        .content p {
+            color: #333;
+            line-height: 1.5;
+        }
+        .content .note {
+            color: red;
+            font-weight: bold;
+        }
+        .content .important {
+            color: blue;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/KmXqbM4/Screenshot-2024-12-17-150114.png"" alt=""US Bank Logo"">
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Explore Our New Digital Banking Features</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We’re excited to introduce the latest updates to our online banking platform. These enhancements are designed to provide you with a more convenient and secure way to manage your finances.</p>
+
+<p><strong>What’s New:</strong></p>
+<ul>
+    <li>Improved user interface for a seamless banking experience.</li>
+    <li>Enhanced security features to protect your account.</li>
+    <li>New tools to track and manage your spending.</li>
+</ul>
+
+<p>To explore these features, log in to your online banking account through our official website:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.usubank.com &gt;&gt;</strong></a></p>
+            
+<hr>
+
+<p><strong>Important:</strong></p>
+<p>These updates will not impact your account access. USU Bank will never request sensitive information such as your password, PIN, or OTP through email or phone. Always ensure you log in only through our official website or app.</p>
+
+<p>If you have any questions or need assistance, please contact our customer service team:</p>
+<ul>
+    <li><strong>Email:</strong> support@usbank.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for choosing USU Bank. We’re committed to providing you with the best banking experience.</p>
+
+<p>Best regards,</p>
+<p>The US Bank Team</p>
+
+<p style=""font-size: 12px; color: gray;"">&copy; 2024 US Bank. All Rights Reserved.</p>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+      `,
+      ""Temp3"": `
+        
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>HDDFC Bank API Portal Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            height: 50px;
+            width: 200px; /* Fixed width */
+            margin-right: 10px;
+        }
+        .header h2 {
+            margin: 0;
+            color: #808080; /* Grey color */
+            width: 180px; /* Adjusted width */
+            text-align: center;
+        }
+        .content p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .content a.button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/v1TnT58/Screenshot-2024-12-17-155759.png"" alt=""HDFC Bank Logo"">
+            <h2>OPENBANKING</h2>
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Notification of Scheduled Maintenance</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We would like to inform you about scheduled maintenance for our online banking services. This maintenance will take place on:</p>
+<ul>
+    
+</ul>
+
+<p>During this time, certain functionalities, such as account updates and transaction history, may be temporarily unavailable. We apologize for any inconvenience this may cause and appreciate your understanding.</p>
+
+<p><strong>Important:</strong> There is no action required on your part. However, if you would like to review or update your account details, please log in securely via our official website:</p>
+<p>click the  link to update here <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a> or copy and paste it into your browser.</p>
+            
+<p>For your security, please ensure you access your account only through our official website or mobile app. Never share your password, PIN, or OTP with anyone.</p>
+
+<p>If you have any questions or need assistance, our customer support team is here to help:</p>
+<ul>
+    <li><strong>Email:</strong> support@HDFC.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for banking with us. We are committed to providing you with the best service possible.</p>
+
+<p>Best regards,</p>
+<p>The HDFC Team</p>
+<p style=""font-size: 12px; color: gray;"">&copy; HDFC bank. All Rights Reserved.</p>
+
+            
+          
+        </div>
+        <div class=""footer"">
+            <p>Regards,<br>-- HDDFC Bank API Portal</p>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+`
+            },
+            
+ 
+
+            
+            delivery: {
+                ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Flipkart Refund Email</title>
+    <style>
+        .email-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fpCQvMD/Screenshot-2024-12-17-144631.png
+"" alt=""Flipkart Logo"" style=""width: 600px;"">
+        </div>
+        <div class=""content"">
+            <p>Hi {{customerName}},</p>
+            <p>Order ID: OD428257007863727100</p>
+            <p>Product Name: Supreme Bison Six Seater Dining Table, Wenge Plastic Outdoor Table.</p>
+            <p>We are sorry for the trouble which has been caused. We understand that this is not what you expected, we don't want our customers to go through this.</p>
+            <p>We'd like to confirm that the seller has refunded Rs. 6350 to your Flipkart Axis Bank Credit card on 11 June 23 and this amount should have been credited to your account by 16 June 23 with the reference number: 32663238.</p>
+            <p>You may contact your bank's customer care using the number mentioned on the back of your card in case you need further assistance.</p>
+<p>you can click the and proceed <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a>.</p>
+            <p>As an alternative, you can also visit your bank to submit the 'Chargeback form' to get an update on your refund.</p>
+            <p>Krishna, we would love to hear from you. Please share your valuable feedback about the support provided by completing the email survey you'll get shortly.</p>
+            <p>Thank you for being with Flifkart.</p>
+            <p>Thanks,<br>Meet Thakkar<br>Flifkart Customer Support</p>
+        </div>
+        <div class=""footer"">
+            <p>Your Query (2023-06-16 20:57:14)</p>
+            <p>Refund immediately</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        `,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Amazon Account Locked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #ff9900;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: left;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #888;
+        }
+        .footer img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .footer a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+        </div>
+        <div class=""content"">
+            <p>Greetings from Zamazon,</p>
+            <p>We have locked yourZamazon account and all pending orders.</p>
+            <p>We have taken this action because the billing information you provided does not match the information on file with the card issuer.</p>
+            <p>To resolve this issue, please verify now with the billing name, address, and phone number stored on your credit card. If you have recently moved, you may need to update this information with the card issuer.</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" class=""button"">Check Now</a>
+            <p>If we cannot complete the verification process within 3 days, all pending orders will be canceled. You will not be able to access your account until this process is complete.</p>
+            <p>We ask that you do not open new accounts as any new order you place may be delayed.</p>
+            <p>We appreciate your patience with our security measures. Thank you for your attention.</p>
+            <p>Best regards,<br>Zmazon Service Team</p>
+        </div>
+        <div class=""footer"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+            <p>&copy; 2025 , Inc. or its affiliates. All rights reserved. Zamazon,  
+            <p>Reference: <a href=""#"">874507091</a></p>
+        </div>
+    </div>
+</body>
+</html>`,
+
+       
+    ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>PREEZ E-commerce Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: #007BFF;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .cta a:hover {
+            background: #0056b3;
+        }
+        .footer {
+            background: #f9f9f9;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <!-- Header Section -->
+        <div class=""header"">
+            <img src=""https://i.ibb.co/mXS7sbS/Screenshot-2024-12-19-091928.png"" alt=""PREEZ Logo"">
+            <h1>Welcome to PREEZ</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+            <p>Thank you for shopping with PREEZ! We're excited to have you as part of our community. Your recent purchase has been confirmed, and we are preparing it for shipment.</p>
+            <p>Here are the details of your order:</p>
+            <ul>
+                <li><strong>Order Number:</strong> PZ123456789</li>
+                <li><strong>Order Date:</strong> [Order Date]</li>
+                <li><strong>Items:</strong> [List of Items]</li>
+            </ul>
+            <p>We will notify you once your order is on its way. You can track your order status anytime using the link below:</p>
+            <div class=""cta"">
+                <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Track My Order</a>
+            </div>
+            <p>If you have any questions, feel free to reach out to our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">support@preez-ecommerce.com</a>.</p>
+            <p>Happy shopping!</p>
+            <p>Warm regards,</p>
+            <p>The PREEZ Team</p>
+        </div>
+
+        <!-- Footer Section -->
+        <div class=""footer"">
+            <p>&copy; 2024 PREEZ E-commerce. All rights reserved.</p>
+            <p>123 PREEZ Lane, Shopping City, SC 12345</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            },
+            lottery: {
+             ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Mega Millions Draw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .email {
+            color: green;
+            font-weight: bold;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Mega Millions Logo"">
+        </div>
+         <p>Dear {{customerName}}, </p>
+            <p>We are excited to invite you to participate in the upcoming Mega Millions draw. This is a unique opportunity to win amazing prizes and change your life forever!</p>
+            <p>To participate, please visit our website and register using your email address. Once registered, you will receive a confirmation email with your ticket number and additional details.</p>
+            <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none;"">Click here to register now!</a></p>
+            <p>If you have any questions or need assistance, feel free to contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.Mega Millions.com</strong></a></p>
+            <p>Good luck!</p>
+            
+        <p><span class=""highlight"">MEGA MILLIONS DRAW.</span><br>
+        UNITED STATES.<br>
+        
+<ul>
+    <li><strong>Email:</strong> support@megamillions.com</li>
+    <li><strong>Phone:</strong> 1-800-MEGADRAW</li>
+</ul>
+
+<p>Thank you for participating, and we look forward to celebrating your success!</p>
+
+<p>Sincerely,<br>The Mega Millions Team</p>
+
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">&copy; 2024 Mega-Millions.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Mega-Millions.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+ 
+
+`,
+        ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Winning Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .email {
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        .warning {
+            color: #d9534f;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <!-- Replace the URL with the original IRL lottery icon image URL -->
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+        </div>
+        
+<p>Dear {{customerName}},</p>
+<p>We are thrilled to inform you that your ticket number <strong>123456789</strong> has been drawn as the winning ticket in the <strong>World's Lottery Mega Jackpot</strong>.</p>
+
+<p>Your prize amount is <span style=""color: #d9534f; font-weight: bold;"">$1,000,000.00</span> (One Million Dollars).</p>
+
+<p>To claim your prize, please contact our claims department by visiting the link below:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #5cb85c; text-decoration: none; font-weight: bold;"">Claim Your Prize &gt;&gt;</a></p>
+
+<p><strong>Alternatively, you may send the following details to our claims department:</strong></p>
+<ul>
+    <li>Your Full Name</li>
+    <li>Your Address</li>
+    <li>Your Winning Ticket Number</li>
+</ul>
+<p>Send these details via email to: <strong><a href= cstyle=""color: #0275d8; text-decoration: none;"">claims@worldslottery.com</a></strong></p>
+
+<p><strong>Note:</strong> Once your claim is verified, you will receive an official notification from our prize department.</p>
+
+<p style=""font-style: italic;"">Thank you for participating, and congratulations on your success!</p>
+
+<p style=""color: #5cb85c; font-weight: bold;"">Good Luck!</p>
+<p>Sincerely,<br>The World's Lottery Team</p>
+
+        
+            <hr>
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Worlds-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": worldslottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+        ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Participation Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <!-- Replace the URL with your lottery logo image URL -->
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+            <h1>Welcome to the Casino Lottery!</h1>
+        </div>
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+<p>We are thrilled to invite you to participate in the upcoming <strong>Casino Lottery Draw</strong>. This is your chance to win incredible prizes and make your dreams come true!</p>
+
+<p>To enter the draw, simply visit our website and register using your email address. Once registered, you will receive a confirmation email containing your ticket number and further details.</p>
+
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none; font-weight: bold;"">Click here to register now!</a></p>
+
+<p>If you have any questions or require assistance, please feel free to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> support@casinolottery.com</li>
+    <li><strong>Phone:</strong> 1-800-CASINO (1-800-227-466)</li>
+</ul>
+
+<p>We wish you the best of luck!</p>
+
+<p>Best regards,<br>The Casino Lottery Team</p>
+<p style=""font-size: 12px; color: #999;"">&copy; 2024 Casino Lottery. All rights reserved.</p>
+
+        </div>
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Casion-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Casino-Lottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            } ,
+            Insurance: {
+                
+                ""Temp1"": 
+                 `
+                <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Benefits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .benefits-list {
+            margin-top: 20px;
+        }
+        .benefits-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/r3BjQY1/Screenshot-2024-12-18-231010.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to PEOPLE insurance company</h1>
+            <p>Dear user,</p>
+            <p>Thank you for choosing PEOPLE Insurance! We’re excited to have the opportunity to provide you with top-notch insurance services tailored to meet your needs. Here’s what you can look forward to with our policies:</p>
+            <ul class=""benefits-list"">
+                <li><strong>Comprehensive Coverage:</strong>  Safeguard your home, vehicle, and personal belongings with our wide-ranging protection.</li>
+                <li><strong>Affordable Premiums:</strong>Enjoy competitive rates designed to fit your budget.</li>
+                <li><strong>24/7 Customer Support:</strong>  Our dedicated team is available any time to assist with questions or claims.</li>
+                <li><strong>Fast and Easy Claims Process:</strong> Simplified steps to ensure timely support when you need it.</li>
+                <li><strong>Flexible Payment Options:</strong> Choose from a variety of plans that align with your preferences.</li>
+                <li><strong>Discounts and Rewards:</strong> Benefit from special perks for loyalty, safe driving, and more.</li>
+            </ul>
+            <p>Should you have any questions or need additional information, please don’t hesitate to contact us at support@peopleinsurancecompany.com or visit our website at <a href=""https://nithin1207v.github.io/phishing-awareness/"">peopleinsurancecompany.com</a>.</p>
+            <p>We look forward to serving you and providing peace of mind for the things that matter most to you.</p>
+            <p>Sincerely,<br>
+            PEOPLE Insurance Team</p>
+        </div>
+        <div class=""footer"">
+            <p>&copy; 2024 PEOPLE Insurance. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+                ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/RvwZwrS/Screenshot-2024-12-18-230153.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to LICC insurance company</h1>
+            <p>Dear User,</p>
+            <p>Thank you for choosing LICC Insurance for your coverage needs. We are delighted to have you as part of our valued community. Our commitment is to provide you with exceptional service and comprehensive insurance solutions tailored to your needs.</p>
+            <p>To explore your policy details or manage your account, please click the link below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button""> Access your Account now</a>
+            <p>If you have any questions or need assistance, please do not hesitate to contact our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/"">liccinsurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            LICC Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 LICC All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+
+
+
+
+
+                 ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Renewal Notice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/LRPX3Rp/Screenshot-2024-12-18-225752.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Insurance Renewal Reminder</h1>
+            <p> Reminder: Your Insurance Policy Renewal
+                Dear [Name],</p>
+            <p>We hope this message finds you well. This is a reminder that your insurance policy with SOFFIA Insurance is scheduled for renewal on [Renewal Date].</p>
+            <p>To conveniently renew your policy and continue enjoying our services, please click the button below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button"">Renew Now</a>
+            <p>IIf you have any questions, please contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/"">soffia@insurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            SOFFIA Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 SOFFIA. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`
+
+
+            }
+        };
+        
+        
+        $(document).ready(function() {
+            // Add recipient
+            $('#addRecipient').click(function() {
+                const newRow = `
+                    <div class=""recipient-row"">
+                        <input type=""email"" class=""recipient-email"" placeholder=""recipient@example.com"" required>
+                        <button type=""button"" class=""remove-btn"">×</button>
+                    </div>
+                `;
+                $('#recipientsList').append(newRow);
+                updateRemoveButtons();
+            });
+
+            // Remove recipient
+            $(document).on('click', '.remove-btn', function() {
+                $(this).closest('.recipient-row').remove();
+                updateRemoveButtons();
+            });
+
+            // Update remove buttons visibility
+            function updateRemoveButtons() {
+                const rows = $('.recipient-row');
+                if (rows.length === 1) {
+                    rows.find('.remove-btn').hide();
+                } else {
+                    $('.remove-btn').show();
+                }
+            }
+
+            // Populate subcategories based on category
+            $('#category').change(function() {
+                const category = $(this).val();
+                const subcategoryDropdown = $('#subcategory');
+                subcategoryDropdown.empty();
+                subcategoryDropdown.append('<option value="""">Select a Subcategory</option>');
+                if (templates[category]) {
+                    Object.keys(templates[category]).forEach(sub => {
+                        subcategoryDropdown.append(`<option value=""${sub}"">${sub}</option>`);
+                    });
+                }
+                $('#message').val(''); // Clear message on category change
+            });
+
+            // Update message based on subcategory
+            $('#subcategory').change(function() {
+                const category = $('#category').val();
+        const subcategory = $(this).val();
+        let messageTemplate = templates[category]?.[subcategory] || '';
+
+        // Replace {{customerName}} with recipient email prefix
+        const recipientEmail = $('.recipient-email').first().val();
+        if (recipientEmail) {
+            const emailPrefix = recipientEmail.split('@')[0];
+            messageTemplate = messageTemplate.replace(/{{customerName}}/g, emailPrefix);
+        }
+
+        $('#message').val(messageTemplate);
+                
+            });
+
+            // Handle form submission
+            $('#emailForm').submit(function(e) {
+                e.preventDefault();
+
+                const recipients = [];
+                $('.recipient-email').each(function() {
+                    const email = $(this).val().trim();
+                    if (email) {
+                        recipients.push({ email: email });
+                    }
+                });
+
+                const data = {
+                    recipients: recipients,
+                    subject: $('#subject').val(),
+                    text: $('#message').val()
+                };
+
+                // Send email
+                $.ajax({
+                    url: '/api/send',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(response) {
+                        $('#statusMessage').removeClass('error').addClass('success')
+                            .html(`Success! Sent to ${response.successful.length} recipients.`);
+                        if (response.failed.length) {
+                            $('#statusMessage').append(`<br>Failed to send to ${response.failed.length} recipients.`);
+                        }
+                    },
+                    error: function(xhr) {
+                        const message = xhr.responseJSON?.message || 'Error sending emails. Please try again.';
+                        $('#statusMessage').removeClass('success').addClass('error')
+                            .text(message);
+                    }
+                });
+            });
+        });"
+Insurance,Insurance
+Insurance,"const templates = {
+           
+            bank: {
+                ""Temp1"": `
+         <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Account Validation</title>
+</head>
+<body>
+    <div style=""font-family: Arial, sans-serif; margin: 20px;"">
+        <h2>Account Validation</h2>
+        <p>services@icicbank.co.in</p>
+        <p>To: me</p>
+        
+        <div style=""border: 1px solid #ccc; padding: 20px;"">
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Bank Logo"" style=""width: 100px;"">
+            <h3>ICIC Bank</h3>
+<p>Subject: Routine Account Verification</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We hope this email finds you well. As part of our regular banking operations, we are conducting a scheduled verification of account details to ensure our records are accurate and up-to-date.</p>
+
+<p>To confirm your account details securely, please follow these steps:</p>
+<ol>
+    <li>Log in to your NetBanking account via the official ICIC Bank website: 
+        <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.icicbank.com &gt;&gt;</strong></a></p>
+           
+       
+    </li>
+    <li>Navigate to the ""Account Verification"" section under ""Profile Settings"".</li>
+    <li>Review and update your details if necessary.</li>
+</ol>
+
+<p>Please note that this verification process helps us maintain the security and integrity of your account and prevent unauthorized access.</p>
+
+<p>If you have any questions or need assistance, please do not hesitate to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> customercare@icicbank.com</li>
+    <li><strong>Phone:</strong> 1-800-102-4242 (Toll-Free)</li>
+</ul>
+
+
+<p>Thank you for choosing ICICI Bank. We appreciate your continued trust in us for your financial needs.</p>
+
+<p>Best regards,</p>
+<p>ICICI NetBanking Team</p>
+<p>Hum Hai Na. Make ICICI Bank your Only Choice.</p>
+
+            <img src=""https://i.ibb.co/wCL5VHB/Screenshot-2024-12-17-160010.png"" alt=""ICICI Footer"" style=""width: 100px;"">
+        </div>
+       
+        <img src=""https://i.ibb.co/Yjkmk4J/Screenshot-2024-12-03-144843.png"" alt=""Norton Secured"" style=""width: 100px;"">
+    </div>
+</body>
+</html>
+
+
+
+`,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>USU Bank Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .content {
+            text-align: left;
+        }
+        .content p {
+            color: #333;
+            line-height: 1.5;
+        }
+        .content .note {
+            color: red;
+            font-weight: bold;
+        }
+        .content .important {
+            color: blue;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/KmXqbM4/Screenshot-2024-12-17-150114.png"" alt=""US Bank Logo"">
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Explore Our New Digital Banking Features</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We’re excited to introduce the latest updates to our online banking platform. These enhancements are designed to provide you with a more convenient and secure way to manage your finances.</p>
+
+<p><strong>What’s New:</strong></p>
+<ul>
+    <li>Improved user interface for a seamless banking experience.</li>
+    <li>Enhanced security features to protect your account.</li>
+    <li>New tools to track and manage your spending.</li>
+</ul>
+
+<p>To explore these features, log in to your online banking account through our official website:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.usubank.com &gt;&gt;</strong></a></p>
+            
+<hr>
+
+<p><strong>Important:</strong></p>
+<p>These updates will not impact your account access. USU Bank will never request sensitive information such as your password, PIN, or OTP through email or phone. Always ensure you log in only through our official website or app.</p>
+
+<p>If you have any questions or need assistance, please contact our customer service team:</p>
+<ul>
+    <li><strong>Email:</strong> support@usbank.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for choosing USU Bank. We’re committed to providing you with the best banking experience.</p>
+
+<p>Best regards,</p>
+<p>The US Bank Team</p>
+
+<p style=""font-size: 12px; color: gray;"">&copy; 2024 US Bank. All Rights Reserved.</p>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+      `,
+      ""Temp3"": `
+        
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>HDDFC Bank API Portal Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            height: 50px;
+            width: 200px; /* Fixed width */
+            margin-right: 10px;
+        }
+        .header h2 {
+            margin: 0;
+            color: #808080; /* Grey color */
+            width: 180px; /* Adjusted width */
+            text-align: center;
+        }
+        .content p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .content a.button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/v1TnT58/Screenshot-2024-12-17-155759.png"" alt=""HDFC Bank Logo"">
+            <h2>OPENBANKING</h2>
+        </div>
+        <div class=""content"">
+            <p style=""font-size: 18px; font-weight: bold;"">Subject: Notification of Scheduled Maintenance</p>
+
+<p>Dear {{customerName}},</p>
+
+<p>We would like to inform you about scheduled maintenance for our online banking services. This maintenance will take place on:</p>
+<ul>
+    
+</ul>
+
+<p>During this time, certain functionalities, such as account updates and transaction history, may be temporarily unavailable. We apologize for any inconvenience this may cause and appreciate your understanding.</p>
+
+<p><strong>Important:</strong> There is no action required on your part. However, if you would like to review or update your account details, please log in securely via our official website:</p>
+<p>click the  link to update here <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a> or copy and paste it into your browser.</p>
+            
+<p>For your security, please ensure you access your account only through our official website or mobile app. Never share your password, PIN, or OTP with anyone.</p>
+
+<p>If you have any questions or need assistance, our customer support team is here to help:</p>
+<ul>
+    <li><strong>Email:</strong> support@HDFC.com</li>
+    <li><strong>Phone:</strong> 1-800-123-4567 (Toll-Free)</li>
+</ul>
+
+<p>Thank you for banking with us. We are committed to providing you with the best service possible.</p>
+
+<p>Best regards,</p>
+<p>The HDFC Team</p>
+<p style=""font-size: 12px; color: gray;"">&copy; HDFC bank. All Rights Reserved.</p>
+
+            
+          
+        </div>
+        <div class=""footer"">
+            <p>Regards,<br>-- HDDFC Bank API Portal</p>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+`
+            },
+            
+ 
+
+            
+            delivery: {
+                ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Flipkart Refund Email</title>
+    <style>
+        .email-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fpCQvMD/Screenshot-2024-12-17-144631.png
+"" alt=""Flipkart Logo"" style=""width: 600px;"">
+        </div>
+        <div class=""content"">
+            <p>Hi {{customerName}},</p>
+            <p>Order ID: OD428257007863727100</p>
+            <p>Product Name: Supreme Bison Six Seater Dining Table, Wenge Plastic Outdoor Table.</p>
+            <p>We are sorry for the trouble which has been caused. We understand that this is not what you expected, we don't want our customers to go through this.</p>
+            <p>We'd like to confirm that the seller has refunded Rs. 6350 to your Flipkart Axis Bank Credit card on 11 June 23 and this amount should have been credited to your account by 16 June 23 with the reference number: 32663238.</p>
+            <p>You may contact your bank's customer care using the number mentioned on the back of your card in case you need further assistance.</p>
+<p>you can click the and proceed <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Click Here</a>.</p>
+            <p>As an alternative, you can also visit your bank to submit the 'Chargeback form' to get an update on your refund.</p>
+            <p>Krishna, we would love to hear from you. Please share your valuable feedback about the support provided by completing the email survey you'll get shortly.</p>
+            <p>Thank you for being with Flifkart.</p>
+            <p>Thanks,<br>Meet Thakkar<br>Flifkart Customer Support</p>
+        </div>
+        <div class=""footer"">
+            <p>Your Query (2023-06-16 20:57:14)</p>
+            <p>Refund immediately</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        `,
+        ""Temp2"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Amazon Account Locked</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #ff9900;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: left;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #888;
+        }
+        .footer img {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .footer a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+        </div>
+        <div class=""content"">
+            <p>Greetings from Zamazon,</p>
+            <p>We have locked yourZamazon account and all pending orders.</p>
+            <p>We have taken this action because the billing information you provided does not match the information on file with the card issuer.</p>
+            <p>To resolve this issue, please verify now with the billing name, address, and phone number stored on your credit card. If you have recently moved, you may need to update this information with the card issuer.</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" class=""button"">Check Now</a>
+            <p>If we cannot complete the verification process within 3 days, all pending orders will be canceled. You will not be able to access your account until this process is complete.</p>
+            <p>We ask that you do not open new accounts as any new order you place may be delayed.</p>
+            <p>We appreciate your patience with our security measures. Thank you for your attention.</p>
+            <p>Best regards,<br>Zmazon Service Team</p>
+        </div>
+        <div class=""footer"">
+            <img src=""https://i.ibb.co/CsHytd5/Screenshot-2024-12-31-150412.png"" alt=""Amazon Logo"">
+            <p>&copy; 2025 , Inc. or its affiliates. All rights reserved. Zamazon,  
+            <p>Reference: <a href=""#"">874507091</a></p>
+        </div>
+    </div>
+</body>
+</html>`,
+
+       
+    ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>PREEZ E-commerce Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background: #007BFF;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+        .content p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .cta a:hover {
+            background: #0056b3;
+        }
+        .footer {
+            background: #f9f9f9;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""email-container"">
+        <!-- Header Section -->
+        <div class=""header"">
+            <img src=""https://i.ibb.co/mXS7sbS/Screenshot-2024-12-19-091928.png"" alt=""PREEZ Logo"">
+            <h1>Welcome to PREEZ</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+            <p>Thank you for shopping with PREEZ! We're excited to have you as part of our community. Your recent purchase has been confirmed, and we are preparing it for shipment.</p>
+            <p>Here are the details of your order:</p>
+            <ul>
+                <li><strong>Order Number:</strong> PZ123456789</li>
+                <li><strong>Order Date:</strong> [Order Date]</li>
+                <li><strong>Items:</strong> [List of Items]</li>
+            </ul>
+            <p>We will notify you once your order is on its way. You can track your order status anytime using the link below:</p>
+            <div class=""cta"">
+                <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">Track My Order</a>
+            </div>
+            <p>If you have any questions, feel free to reach out to our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"">support@preez-ecommerce.com</a>.</p>
+            <p>Happy shopping!</p>
+            <p>Warm regards,</p>
+            <p>The PREEZ Team</p>
+        </div>
+
+        <!-- Footer Section -->
+        <div class=""footer"">
+            <p>&copy; 2024 PREEZ E-commerce. All rights reserved.</p>
+            <p>123 PREEZ Lane, Shopping City, SC 12345</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            },
+            lottery: {
+             ""Temp1"": `
+        <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Mega Millions Draw</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        .email {
+            color: green;
+            font-weight: bold;
+        }
+        .warning {
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Mega Millions Logo"">
+        </div>
+         <p>Dear {{customerName}}, </p>
+            <p>We are excited to invite you to participate in the upcoming Mega Millions draw. This is a unique opportunity to win amazing prizes and change your life forever!</p>
+            <p>To participate, please visit our website and register using your email address. Once registered, you will receive a confirmation email with your ticket number and additional details.</p>
+            <p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none;"">Click here to register now!</a></p>
+            <p>If you have any questions or need assistance, feel free to contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: red; text-decoration: none;""><strong>www.Mega Millions.com</strong></a></p>
+            <p>Good luck!</p>
+            
+        <p><span class=""highlight"">MEGA MILLIONS DRAW.</span><br>
+        UNITED STATES.<br>
+        
+<ul>
+    <li><strong>Email:</strong> support@megamillions.com</li>
+    <li><strong>Phone:</strong> 1-800-MEGADRAW</li>
+</ul>
+
+<p>Thank you for participating, and we look forward to celebrating your success!</p>
+
+<p>Sincerely,<br>The Mega Millions Team</p>
+
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/fXxg26z/Screenshot-2024-12-17-150435.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">&copy; 2024 Mega-Millions.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Mega-Millions.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+ 
+
+`,
+        ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Winning Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .email {
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        .warning {
+            color: #d9534f;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""logo"">
+            <!-- Replace the URL with the original IRL lottery icon image URL -->
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+        </div>
+        
+<p>Dear {{customerName}},</p>
+<p>We are thrilled to inform you that your ticket number <strong>123456789</strong> has been drawn as the winning ticket in the <strong>World's Lottery Mega Jackpot</strong>.</p>
+
+<p>Your prize amount is <span style=""color: #d9534f; font-weight: bold;"">$1,000,000.00</span> (One Million Dollars).</p>
+
+<p>To claim your prize, please contact our claims department by visiting the link below:</p>
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #5cb85c; text-decoration: none; font-weight: bold;"">Claim Your Prize &gt;&gt;</a></p>
+
+<p><strong>Alternatively, you may send the following details to our claims department:</strong></p>
+<ul>
+    <li>Your Full Name</li>
+    <li>Your Address</li>
+    <li>Your Winning Ticket Number</li>
+</ul>
+<p>Send these details via email to: <strong><a href= cstyle=""color: #0275d8; text-decoration: none;"">claims@worldslottery.com</a></strong></p>
+
+<p><strong>Note:</strong> Once your claim is verified, you will receive an official notification from our prize department.</p>
+
+<p style=""font-style: italic;"">Thank you for participating, and congratulations on your success!</p>
+
+<p style=""color: #5cb85c; font-weight: bold;"">Good Luck!</p>
+<p>Sincerely,<br>The World's Lottery Team</p>
+
+        
+            <hr>
+            <img src=""https://i.ibb.co/d7yLM7y/Screenshot-2024-12-21-195546.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Worlds-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": worldslottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+        ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Lottery Participation Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px; /* Adjust the size of the logo as needed */
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <!-- Replace the URL with your lottery logo image URL -->
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Lottery Logo"" style=""width: 150px;"">
+            <h1>Welcome to the Casino Lottery!</h1>
+        </div>
+        <div class=""content"">
+            <p>Dear {{customerName}},</p>
+<p>We are thrilled to invite you to participate in the upcoming <strong>Casino Lottery Draw</strong>. This is your chance to win incredible prizes and make your dreams come true!</p>
+
+<p>To enter the draw, simply visit our website and register using your email address. Once registered, you will receive a confirmation email containing your ticket number and further details.</p>
+
+<p><a href=""https://nithin1207v.github.io/phishing-awareness/?id={{userID}}"" target=""_blank"" style=""color: #337ab7; text-decoration: none; font-weight: bold;"">Click here to register now!</a></p>
+
+<p>If you have any questions or require assistance, please feel free to contact us:</p>
+<ul>
+    <li><strong>Email:</strong> support@casinolottery.com</li>
+    <li><strong>Phone:</strong> 1-800-CASINO (1-800-227-466)</li>
+</ul>
+
+<p>We wish you the best of luck!</p>
+
+<p>Best regards,<br>The Casino Lottery Team</p>
+<p style=""font-size: 12px; color: #999;"">&copy; 2024 Casino Lottery. All rights reserved.</p>
+
+        </div>
+        <div class=""footer"">
+            <hr>
+            <img src=""https://i.ibb.co/vQYPGLD/Screenshot-2024-12-21-200009.png"" alt=""Logo"" width=""150"" height=""31""><p class=""copyright"">Material Copyright © 2024 Casion-Lottery.com All rights reserved.</p><a href=""/disclaimer"" title=""disclaimer"">Disclaimer</a>"": Casino-Lottery.com is not affiliated with the Multi-State Lottery Association or any State lottery. The content and operations of this website have not been approved or endorsed by MUSL or any other state lottery organisation.""
+            <p>This is an automated email, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+            } ,
+            Insurance: {
+                
+                ""Temp1"": 
+                 `
+                <!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Benefits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .benefits-list {
+            margin-top: 20px;
+        }
+        .benefits-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/r3BjQY1/Screenshot-2024-12-18-231010.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to PEOPLE insurance company</h1>
+            <p>Dear user,</p>
+            <p>Thank you for choosing PEOPLE Insurance! We’re excited to have the opportunity to provide you with top-notch insurance services tailored to meet your needs. Here’s what you can look forward to with our policies:</p>
+            <ul class=""benefits-list"">
+                <li><strong>Comprehensive Coverage:</strong>  Safeguard your home, vehicle, and personal belongings with our wide-ranging protection.</li>
+                <li><strong>Affordable Premiums:</strong>Enjoy competitive rates designed to fit your budget.</li>
+                <li><strong>24/7 Customer Support:</strong>  Our dedicated team is available any time to assist with questions or claims.</li>
+                <li><strong>Fast and Easy Claims Process:</strong> Simplified steps to ensure timely support when you need it.</li>
+                <li><strong>Flexible Payment Options:</strong> Choose from a variety of plans that align with your preferences.</li>
+                <li><strong>Discounts and Rewards:</strong> Benefit from special perks for loyalty, safe driving, and more.</li>
+            </ul>
+            <p>Should you have any questions or need additional information, please don’t hesitate to contact us at support@peopleinsurancecompany.com or visit our website at <a href=""https://nithin1207v.github.io/phishing-awareness/"">peopleinsurancecompany.com</a>.</p>
+            <p>We look forward to serving you and providing peace of mind for the things that matter most to you.</p>
+            <p>Sincerely,<br>
+            PEOPLE Insurance Team</p>
+        </div>
+        <div class=""footer"">
+            <p>&copy; 2024 PEOPLE Insurance. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+                ""Temp2"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Company Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/RvwZwrS/Screenshot-2024-12-18-230153.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Welcome to LICC insurance company</h1>
+            <p>Dear User,</p>
+            <p>Thank you for choosing LICC Insurance for your coverage needs. We are delighted to have you as part of our valued community. Our commitment is to provide you with exceptional service and comprehensive insurance solutions tailored to your needs.</p>
+            <p>To explore your policy details or manage your account, please click the link below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button""> Access your Account now</a>
+            <p>If you have any questions or need assistance, please do not hesitate to contact our support team at <a href=""https://nithin1207v.github.io/phishing-awareness/"">liccinsurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            LICC Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 LICC All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`,
+
+
+
+
+
+                 ""Temp3"": `<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Insurance Renewal Notice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            color: #777777;
+            font-size: 12px;
+            padding: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class=""container"">
+        <div class=""header"">
+            <img src=""https://i.ibb.co/LRPX3Rp/Screenshot-2024-12-18-225752.png"" alt=""Company Logo"">
+        </div>
+        <div class=""content"">
+            <h1>Insurance Renewal Reminder</h1>
+            <p> Reminder: Your Insurance Policy Renewal
+                Dear [Name],</p>
+            <p>We hope this message finds you well. This is a reminder that your insurance policy with SOFFIA Insurance is scheduled for renewal on [Renewal Date].</p>
+            <p>To conveniently renew your policy and continue enjoying our services, please click the button below:</p>
+            <a href=""https://nithin1207v.github.io/phishing-awareness/"" class=""button"">Renew Now</a>
+            <p>IIf you have any questions, please contact us at <a href=""https://nithin1207v.github.io/phishing-awareness/"">soffia@insurancecompany.com</a>.</p>
+            <p>Sincerely,<br>
+            SOFFIA Team</p>
+        </div>
+        <div class=""footer"">
+            <hr>
+            <p>&copy; 2024 SOFFIA. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+`
+
+
+            }
+        };
+        
+        
+        $(document).ready(function() {
+            // Add recipient
+            $('#addRecipient').click(function() {
+                const newRow = `
+                    <div class=""recipient-row"">
+                        <input type=""email"" class=""recipient-email"" placeholder=""recipient@example.com"" required>
+                        <button type=""button"" class=""remove-btn"">×</button>
+                    </div>
+                `;
+                $('#recipientsList').append(newRow);
+                updateRemoveButtons();
+            });
+
+            // Remove recipient
+            $(document).on('click', '.remove-btn', function() {
+                $(this).closest('.recipient-row').remove();
+                updateRemoveButtons();
+            });
+
+            // Update remove buttons visibility
+            function updateRemoveButtons() {
+                const rows = $('.recipient-row');
+                if (rows.length === 1) {
+                    rows.find('.remove-btn').hide();
+                } else {
+                    $('.remove-btn').show();
+                }
+            }
+
+            // Populate subcategories based on category
+            $('#category').change(function() {
+                const category = $(this).val();
+                const subcategoryDropdown = $('#subcategory');
+                subcategoryDropdown.empty();
+                subcategoryDropdown.append('<option value="""">Select a Subcategory</option>');
+                if (templates[category]) {
+                    Object.keys(templates[category]).forEach(sub => {
+                        subcategoryDropdown.append(`<option value=""${sub}"">${sub}</option>`);
+                    });
+                }
+                $('#message').val(''); // Clear message on category change
+            });
+
+            // Update message based on subcategory
+            $('#subcategory').change(function() {
+                const category = $('#category').val();
+        const subcategory = $(this).val();
+        let messageTemplate = templates[category]?.[subcategory] || '';
+
+        // Replace {{customerName}} with recipient email prefix
+        const recipientEmail = $('.recipient-email').first().val();
+        if (recipientEmail) {
+            const emailPrefix = recipientEmail.split('@')[0];
+            messageTemplate = messageTemplate.replace(/{{customerName}}/g, emailPrefix);
+        }
+
+        $('#message').val(messageTemplate);
+                
+            });
+
+            // Handle form submission
+            $('#emailForm').submit(function(e) {
+                e.preventDefault();
+
+                const recipients = [];
+                $('.recipient-email').each(function() {
+                    const email = $(this).val().trim();
+                    if (email) {
+                        recipients.push({ email: email });
+                    }
+                });
+
+                const data = {
+                    recipients: recipients,
+                    subject: $('#subject').val(),
+                    text: $('#message').val()
+                };
+
+                // Send email
+                $.ajax({
+                    url: '/api/send',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(data),
+                    success: function(response) {
+                        $('#statusMessage').removeClass('error').addClass('success')
+                            .html(`Success! Sent to ${response.successful.length} recipients.`);
+                        if (response.failed.length) {
+                            $('#statusMessage').append(`<br>Failed to send to ${response.failed.length} recipients.`);
+                        }
+                    },
+                    error: function(xhr) {
+                        const message = xhr.responseJSON?.message || 'Error sending emails. Please try again.';
+                        $('#statusMessage').removeClass('success').addClass('error')
+                            .text(message);
+                    }
+                });
+            });
+        });"

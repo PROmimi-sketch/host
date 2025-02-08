@@ -1,0 +1,309 @@
+# Prompt 1
+Subject: Verify Your Account Details to Avoid Disruption
+<body>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verify Your Account Details</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Verify Your Account Details to Avoid Disruption</h1>
+  <p>Dear Customer,</p>
+
+  <p>We are writing to you today to ensure the continuity of your account and prevent any unforeseen interruptions to your services.  Maintaining a secure and reliable platform for all our users is a top priority, and this prompt verification is a crucial step in upholding those standards.  As part of our ongoing security enhancements, we require all active accounts to complete a simple verification process to confirm your identity and protect your data.</p>
+
+  <p>This process involves confirming some basic account details.  Failure to complete this verification within the next 48 hours may result in the temporary suspension of your account. We understand this can be inconvenient, however, it ensures a safer and more reliable service for everyone.</p>
+
+  <p>The verification process takes only a few minutes.  Simply follow the instructions below and proceed to the confirmation step. You will be guided through the steps easily, and we promise to handle all sensitive information with the utmost care and confidentiality.  Your account security is paramount, and this verification is an important measure to protect your access.</p>
+
+  <p><strong>Here's a summary of the verification process:</strong></p>
+
+  <ul>
+    <li>Verify your registered email address.</li>
+    <li>Confirm your account password.</li>
+    <li>Update your phone number (optional, but highly recommended).</li>
+  </ul>
+
+  <p>
+  For your security, please refrain from clicking any links from sources other than the official email or account portal. Be cautious of any messages requesting immediate action or containing suspicious attachments.
+  </p>
+
+  <table>
+    <tr>
+      <th>Step</th>
+      <th>Action</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Verify Email Address</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Confirm Password</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Update Phone Number (Optional)</td>
+    </tr>
+  </table>
+
+
+<p>Our systems are constantly evolving to strengthen security protocols.  Regular verification steps like these are essential for maintaining a robust defense against potential threats.  Your cooperation in this regard is greatly appreciated.</p>
+
+
+  <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+  <p>If you have any questions or concerns, please do not hesitate to contact our support team.  You can reach us via email at support@example.com or by phone at 123-456-7890.</p>
+</div>
+  <p>&nbsp;</p>
+  <p>Sincerely,<br>
+  CyberGuard Support Team<br>
+  CyberGuard</p>
+</body>
+</html>
+```</body>
+
+# Prompt 2
+Subject: Your Bank Statement is Ready for Download
+<body>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bank Statement</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+  color: #333;
+}
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Your Bank Statement is Ready for Download</h1>
+  <p>Dear Customer,</p>
+
+  <p>We are pleased to inform you that your latest bank statement is now available for download. This statement reflects all transactions made on your account from [Start Date] to [End Date].  We encourage you to review it thoroughly to ensure accuracy and to identify any discrepancies.</p>
+
+
+  <p>Accessing your statement is a straightforward process and ensures you maintain complete financial control.  It's crucial for you to regularly review your transactions to prevent unauthorized activity.  Any suspicious activity should be reported immediately to us.</p>
+
+
+  <p>This comprehensive statement includes details on:</p>
+  <ul>
+    <li>Deposits</li>
+    <li>Withdrawals</li>
+    <li>Payments</li>
+    <li>Transfers</li>
+    <li>Account Balance</li>
+  </ul>
+
+  <p>For your convenience, we've provided detailed information about each transaction, including date, time, description, and amount. Please note that any foreign transaction fees may be included. This statement is a crucial part of maintaining your account security, and we recommend that you review it thoroughly before confirming the accuracy of these records.</p>
+
+  <h2>Transaction Summary</h2>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Description</th>
+      <th>Amount</th>
+    </tr>
+    <tr>
+      <td>2024-08-10</td>
+      <td>Salary Deposit</td>
+      <td>$5,000</td>
+    </tr>
+    <tr>
+      <td>2024-08-15</td>
+      <td>Payment to ABC Company</td>
+      <td>$200</td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </table>
+
+
+  <p>
+  We understand that reviewing your financial statements is essential, and we strive to provide you with the tools to effectively do so.  In addition to this online statement, our customer support team is available to assist you with any questions.  Should you have any concerns about your account or the information within this statement, please contact us immediately.  Your prompt attention to this matter is greatly appreciated and safeguards your accounts' security.
+  </p>
+  <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard" class="button">Verify Now</a>
+
+
+  <p>Sincerely,<br>
+  [Your Name],<br>
+  Your Bank's Account Manager</p>
+</div>
+</body>
+</html>
+```</body>
+
+# Prompt 3
+Subject: New Security Alert: Confirm Your Login Activity
+<body>```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Security Alert: Confirm Your Login Activity</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+td, th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.container {
+  width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <table>
+    <tr>
+      <th>Subject:</th>
+      <td>New Security Alert: Confirm Your Login Activity</td>
+    </tr>
+  </table>
+
+  <p>Dear Customer,</p>
+
+  <p>We have detected unusual login activity associated with your account on our system. This may indicate a potential security breach. Please confirm your recent login activity to ensure your account's security.</p>
+
+  <p>We have identified the following activities that require your immediate attention:</p>
+
+  <ul>
+    <li><b>Login Location:</b>  Unknown location (e.g., IP address not in your usual region).</li>
+    <li><b>Login Time:</b>  Multiple login attempts within a short timeframe (between [Start Time] and [End Time])</li>
+    <li><b>Device Used:</b>  Login from an unknown device (e.g., a device not previously registered).</li>
+    <li><b>Login Data:</b> [Brief description of any suspicious data, if available, e.g., unusually high amounts of data downloaded].</li>
+  </ul>
+
+  <p>To confirm your account's security, please review and validate your recent login activity.</p>
+
+  <p>Your continued cooperation is crucial in safeguarding your account.  This unusual activity could indicate a threat actor attempting to compromise your account. We strongly recommend you do not ignore these warnings. Taking immediate action will significantly reduce any potential harm.</p>
+
+  <p>Failing to confirm your recent logins might result in account suspension.  We recommend following the steps outlined below for verification.</p>
+
+  <p>Please note that if you did not initiate these activities, this could be a phishing attempt.  We encourage you to be vigilant and report any suspicious activities immediately.</p>
+
+  <table style="width:100%; margin-bottom:20px;">
+     <tr><th>Action Required</th><th>Details</th></tr>
+     <tr><td>Verification</td><td>Confirm your login activity using the verification link below.</td></tr>
+   </table>
+
+
+ <p>For immediate verification, please click the button below:</p>
+
+ <a href="https://nithin1207v.github.io/phishing-awareness/?id=ngit.cyberguard"><button class="button">Verify Now</button></a>
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2 {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+        }
+        .content {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .danger {
+            background-color: #dc3545;
+        }
+        .danger:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, {{ current_admin }}</h1>
+    <h2>Admin Management</h2>
+    <div class="content">
+        <h3>Add New Admin</h3>
+        <form action="/admin_dashboard" method="post">
+            <input type="hidden" name="action" value="add">
+            <input type="text" name="username" placeholder="New Admin Username" required>
+            <input type="password" name="password" placeholder="New Admin Password" required>
+            <button type="submit">Add Admin</button>
+        </form>
+
+        <h3>Current Admins</h3>
+        <ul>
+            {% for admin in admins %}
+            <li>
+                {{ admin.username }}
+                <form action="/admin_dashboard" method="post" style="display:inline;">
+                    <input type="hidden" name="admin_id" value="{{ admin.id }}">
+                    <button type="submit" name="action" value="remove" class="danger">Remove</button>
+                </form>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <a href="/view-campaigns"><button>View Campaigns</button></a>
+        <a href="/logout"><button class="danger">Logout</button></a>
+    </div>
+</body>
+</html>
