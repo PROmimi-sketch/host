@@ -584,32 +584,24 @@ def download_csv(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename, as_attachment=True)
 
 
-
 @app.route('/download-report/<company_name>/<int:campaign_id>')
 def download_report(company_name, campaign_id):
     if 'user' not in session:
         flash("Please log in first.", "danger")
         return redirect(url_for('user_login'))
 
-    # ✅ Ensure the user requesting the report is the correct one
     if session['user'] != company_name:
         flash("Unauthorized access to report!", "danger")
         return redirect(url_for('user_dashboard'))
 
-    # ✅ Fetch the latest logs **before** downloading
-    view_report()  
-
     report_filename = f"{company_name}_{campaign_id}_report.xlsx"
     report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
 
-    # ✅ Check again after updating logs
     if not os.path.exists(report_path):
-        flash("Report generation failed. Please try again.", "danger")
+        flash("Report file not found. Please try again later.", "danger")
         return redirect(url_for('user_dashboard'))
 
     return send_from_directory(app.config['UPLOAD_FOLDER'], report_filename, as_attachment=True)
-
-
 
         
         
