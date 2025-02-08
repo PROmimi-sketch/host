@@ -9,4 +9,5 @@ greenlet
 Jinja2
 email-validator
 python-dotenv
-google
+google-generativeai
+
