@@ -10,7 +10,7 @@ import json
 nltk.download('punkt')
 
 # Initialize Gemini API Key
-genai.configure(api_key="AIzaSyALBrWQdEEhdZTtDHtvO8gGjTEeRigRWjM")
+genai.configure(api_key="AIzaSyAXvkB7ZPayL_gcCQowyxcQfnQh8Oi0mtQ")
 
 # Function to clean and analyze text
 def clean_and_analyze_text(text):
