@@ -38,8 +38,8 @@ def clean_unwanted_phrases(text):
     return text
 
 # Function to train the LLM with extracted templates
-def train_llm_with_templates(file_path='host\\full_email_templates.csv'):
-    df = pd.read_csv('host\\full_email_templates.csv')
+def train_llm_with_templates(file_path='full_email_templates.csv'):
+    df = pd.read_csv('full_email_templates.csv')
 
     model = genai.GenerativeModel("gemini-1.5-flash-8b")
     training_data = ""
