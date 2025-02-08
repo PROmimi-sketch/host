@@ -10,4 +10,5 @@ Jinja2
 email-validator
 python-dotenv
 google-generativeai
+nltk
 
