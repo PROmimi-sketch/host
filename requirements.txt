@@ -11,4 +11,5 @@ email-validator
 python-dotenv
 google-generativeai
 nltk
+textblob
 
