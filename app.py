@@ -288,20 +288,29 @@ def view_campaigns():
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-@app.route('/run_campaign/<int:campaign_id>', methods=['POST'])
+
+            
+           
+
+     @app.route('/run_campaign/<int:campaign_id>', methods=['POST'])
 def run_campaign(campaign_id):
+    print(f"🚀 Run Campaign Triggered for ID: {campaign_id}")
+
     campaign = db.session.get(Campaign, campaign_id)
 
     if not campaign:
+        print("❌ Campaign not found.")
         flash("Campaign not found.", "danger")
         return redirect(url_for('view_campaigns'))
 
     if campaign.is_run:
+        print("⚠️ This campaign has already been run.")
         flash("This campaign has already been run.", "warning")
         return redirect(url_for('view_campaigns'))
 
     file_path = os.path.join(app.config['UPLOAD_FOLDER'], campaign.filename)
     if not os.path.exists(file_path):
+        print("❌ CSV file not found.")
         flash("CSV file not found.", "danger")
         return redirect(url_for('view_campaigns'))
 
@@ -324,7 +333,8 @@ def run_campaign(campaign_id):
     print(f"✅ Found {len(email_addresses)} email addresses.")
 
     if not email_addresses:
-        flash("No valid email addresses found in the CSV.", "warning")
+        print("⚠️ No valid email addresses found in CSV.")
+        flash("No valid email addresses found in CSV.", "warning")
         return redirect(url_for('view_campaigns'))
 
     print(f"🚀 Generating email templates for category: {campaign.category}")
@@ -336,15 +346,16 @@ def run_campaign(campaign_id):
             email_addresses
         )
         if not emails:
+            print("❌ No email templates found for the selected category.")
             flash("No email templates found for the selected category.", "danger")
             return redirect(url_for('view_campaigns'))
     except Exception as e:
+        print(f"❌ Error generating emails: {e}")
         flash(f"Error generating emails: {e}", "danger")
         return redirect(url_for('view_campaigns'))
 
     successful_emails = 0
     failed_emails = 0
-    
 
     def send_email_wrapper(email):
         """Function to send emails ensuring correct mapping of userID."""
@@ -354,9 +365,7 @@ def run_campaign(campaign_id):
             print(f"❌ No valid templates found for {email}. Skipping...")
             return
 
-        # ✅ Get the first available email for this user
         subject, body = emails[email][0]
-
         print(f"📤 Sending email to {email} with subject: {subject}")
 
         try:
@@ -368,13 +377,12 @@ def run_campaign(campaign_id):
             failed_emails += 1
 
     # ✅ Use ThreadPoolExecutor to run emails concurrently
-    max_workers = min(5, len(email_addresses))  # Avoid excessive threads
+    max_workers = min(5, len(email_addresses))  
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {executor.submit(send_email_wrapper, email): email for email in email_addresses}
-
         for future in as_completed(futures):
             try:
-                future.result()  # Wait for completion
+                future.result()
             except Exception as e:
                 print(f"❌ Error sending email: {e}")
 
@@ -382,11 +390,12 @@ def run_campaign(campaign_id):
     campaign.is_run = True
     db.session.commit()
 
-    flash(f"✅ Campaign run successfully. Sent to {successful_emails} emails.", "success")
+    print(f"✅ Campaign run successfully. Sent to {successful_emails} emails.")
     if failed_emails > 0:
-        flash(f"⚠️ Failed to send to {failed_emails} emails.", "warning")
+        print(f"⚠️ Failed to send to {failed_emails} emails.")
 
     return redirect(url_for('view_campaigns'))
+
 
 
     
