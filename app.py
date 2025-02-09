@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask import Flask, render_template, request, redirect, url_for, flash, session, send_file
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
@@ -16,10 +16,11 @@ import requests
 from flask import send_from_directory
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
+import tempfile
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = tempfile.gettempdir()  # Changed to use system temp directory
 DEFAULT_ADMIN_USERNAME = 'admin'
 DEFAULT_ADMIN_PASSWORD = '123'
 DEFAULT_ADMIN_PASSWORD_HASH = generate_password_hash(DEFAULT_ADMIN_PASSWORD)
@@ -436,6 +437,7 @@ def send_email(to_email, subject, body):
 LOGGLY_API_URL = "https://nithin3131.loggly.com/apiv2/events/iterate?q=*&from=-48H&until=now&size=100"
 
 LOGGLY_API_TOKEN = '1bddcb24-d715-4091-844c-a50008c1cb14'             # Replace with your Loggly API Token
+
 @app.route('/view-report', methods=['GET'])
 def view_report():
     if 'user' not in session:
@@ -449,39 +451,50 @@ def view_report():
         flash("No completed campaigns found.", "warning")
         return redirect(url_for('user_dashboard'))
 
-    # ✅ Process each completed campaign
-    for campaign in campaigns:
-        file_path = os.path.join(app.config['UPLOAD_FOLDER'], campaign.filename)
-        if not os.path.exists(file_path):
-            continue  # Skip if CSV file is missing
+    try:
+        # Process each completed campaign
+        for campaign in campaigns:
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], campaign.filename)
+            
+            # Get email addresses
+            email_addresses = []
+            try:
+                with open(file_path, newline='', encoding='utf-8') as csvfile:
+                    reader = csv.reader(csvfile)
+                    for row in reader:
+                        if row:
+                            email_addresses.append(row[0].strip())
+            except Exception as e:
+                print(f"Error reading CSV: {e}")
+                continue
 
-        # ✅ Read email addresses from the uploaded CSV file
-        email_addresses = []
-        with open(file_path, newline='', encoding='utf-8') as csvfile:
-            reader = csv.reader(csvfile)
-            for row in reader:
-                if row:
-                    email_addresses.append(row[0].strip())
+            user_ids = [email.split('@')[0] for email in email_addresses]
 
-        user_ids = [email.split('@')[0] for email in email_addresses]
+            # Generate report filename and path
+            report_filename = f"{company_name}_{campaign.id}_report.xlsx"
+            report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
 
-        # ✅ Define report filename
-        report_filename = f"{company_name}_{campaign.id}_report.xlsx"
-        report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
+            try:
+                # Fetch Loggly data and create report
+                fetch_loggly_data(user_ids, report_path)
+            except Exception as e:
+                print(f"Error generating report: {e}")
+                continue
 
-        # ✅ Fetch Loggly logs and update the report every time
-        fetch_loggly_data(user_ids, report_path)
+        flash("✅ Reports updated successfully!", "success")
+        return redirect(url_for('user_dashboard'))
 
-    flash("✅ Report updated with the latest logs!", "success")
-    return redirect(url_for('user_dashboard'))
-
+    except Exception as e:
+        print(f"Error in view_report: {e}")
+        flash("An error occurred while generating the reports.", "danger")
+        return redirect(url_for('user_dashboard'))
 
 import requests
 import pandas as pd
 import os
 
 def fetch_loggly_data(user_ids, report_path):
-    """Fetch logs from Loggly & update the Excel report with the latest timestamps & IPs."""
+    """Fetch logs from Loggly & create the Excel report."""
     headers = {"Authorization": f"Bearer {LOGGLY_API_TOKEN}"}
 
     try:
@@ -490,10 +503,13 @@ def fetch_loggly_data(user_ids, report_path):
         data = response.json()
         logs = data.get('events', [])
 
-        latest_clicks = {}  # Store only the latest click per user
-
+        # Create DataFrame for report
+        df = pd.DataFrame(columns=["Email ID", "Clicked", "Timestamp", "IP Address"])
+        
+        # Process logs
+        latest_clicks = {}
         for log in logs:
-            event_data = log.get('event', {}).get('json', {})  # ✅ Avoid KeyErrors
+            event_data = log.get('event', {}).get('json', {})
             user_id = event_data.get('userID', '')
             timestamp = event_data.get('timestamp', '')
             ip = event_data.get('ip', '')
@@ -502,33 +518,26 @@ def fetch_loggly_data(user_ids, report_path):
                 if user_id not in latest_clicks or timestamp > latest_clicks[user_id]['timestamp']:
                     latest_clicks[user_id] = {"timestamp": timestamp, "ip": ip}
 
-        # ✅ Ensure report file exists before modifying it
-        if os.path.exists(report_path):
-            df = pd.read_excel(report_path)
-        else:
-            df = pd.DataFrame(columns=["Email ID", "Clicked", "Timestamp", "IP Address"])
-
-        # ✅ Ensure all expected email IDs are in the report
-        existing_emails = set(df["Email ID"].tolist()) if "Email ID" in df.columns else set()
-
+        # Create report entries
         for user_id in user_ids:
-            email = f"{user_id}@example.com"  # Adjust domain logic as needed
+            email = f"{user_id}@example.com"
+            click_data = latest_clicks.get(user_id, {})
+            
+            df = pd.concat([df, pd.DataFrame([{
+                "Email ID": email,
+                "Clicked": 1 if click_data else 0,
+                "Timestamp": click_data.get('timestamp', ''),
+                "IP Address": click_data.get('ip', '')
+            }])], ignore_index=True)
 
-            if email not in existing_emails:
-                df = pd.concat([df, pd.DataFrame([{"Email ID": email, "Clicked": 0, "Timestamp": "", "IP Address": ""}])], ignore_index=True)
-
-            # ✅ Update click data if available
-            if user_id in latest_clicks:
-                df.loc[df["Email ID"] == email, "Clicked"] = 1  # Mark as clicked
-                df.loc[df["Email ID"] == email, "Timestamp"] = latest_clicks[user_id]["timestamp"]
-                df.loc[df["Email ID"] == email, "IP Address"] = latest_clicks[user_id]["ip"]
-
-        # ✅ Save updated report
+        # Save report
         df.to_excel(report_path, index=False)
-        print("✅ Report updated with latest Loggly data.")
+        print("✅ Report generated successfully")
 
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Error fetching logs from Loggly: {e}")
+    except Exception as e:
+        print(f"Error in fetch_loggly_data: {e}")
+        raise
+
 
 
 
@@ -594,23 +603,40 @@ def download_report(company_name, campaign_id):
         flash("Unauthorized access to report!", "danger")
         return redirect(url_for('user_dashboard'))
 
-    # ✅ Ensure the report is generated before downloading
-    view_report()
+    try:
+        report_filename = f"{company_name}_{campaign_id}_report.xlsx"
+        report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
 
-    report_filename = f"{company_name}_{campaign_id}_report.xlsx"
-    report_path = os.path.join(app.config['UPLOAD_FOLDER'], report_filename)
+        if not os.path.exists(report_path):
+            # Generate report if it doesn't exist
+            campaign = Campaign.query.get(campaign_id)
+            if not campaign:
+                flash("Campaign not found.", "danger")
+                return redirect(url_for('user_dashboard'))
 
-    # ✅ Debugging Log
-    print(f"📁 Checking for report file: {report_path}")
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], campaign.filename)
+            email_addresses = []
+            with open(file_path, newline='', encoding='utf-8') as csvfile:
+                reader = csv.reader(csvfile)
+                for row in reader:
+                    if row:
+                        email_addresses.append(row[0].strip())
 
-    # ✅ Check if file exists before downloading
-    if not os.path.exists(report_path):
-        print(f"❌ Report file not found: {report_filename}")
-        flash("Report file not found. Please try again later.", "danger")
+            user_ids = [email.split('@')[0] for email in email_addresses]
+            fetch_loggly_data(user_ids, report_path)
+
+        return send_file(
+            report_path,
+            as_attachment=True,
+            download_name=report_filename,
+            mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+    except Exception as e:
+        print(f"Error in download_report: {e}")
+        flash("An error occurred while downloading the report.", "danger")
         return redirect(url_for('user_dashboard'))
 
-    print(f"✅ Report file found! Sending to user: {report_filename}")
-    return send_from_directory(app.config['UPLOAD_FOLDER'], report_filename, as_attachment=True)
 
 @app.route('/logout')
 def logout():
