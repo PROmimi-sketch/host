@@ -29,7 +29,7 @@ DEFAULT_USER_PASSWORD = 'user123'
 DEFAULT_USER_PASSWORD_HASH = generate_password_hash(DEFAULT_USER_PASSWORD)
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['UPLOAD_FOLDER'] = uploads
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
